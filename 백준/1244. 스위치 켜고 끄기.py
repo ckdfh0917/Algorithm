@@ -37,7 +37,7 @@ switch = list(map(int,input().split()))
 N = int(input())
 print('a [1', end='')
 for i in range(2,switch_num+1):
-    print(',',i, end= '')
+    print(',',i, end='')
 print(']')
 print('f',switch)
 for i in range(N):
