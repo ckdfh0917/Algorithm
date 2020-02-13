@@ -23,7 +23,7 @@ for test_case in range(1, q+1):
                     result = 0
                     break
             else:
-                result  = 0
+                result = 0
                 break
     if len(s) != 0:
         result = 0

@@ -52,8 +52,5 @@ for test_case in range(1,11):
                     #print('c', k, i, cnt)
                     break
 
-            if min_num > cnt:
-                min_num = cnt
-                idx = k
                 #print('a', min_num, idx)
     print('#{} {}' .format(test_case, idx))

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input2.txt', 'r')
+sys.stdin = open('input.txt', 'r')
 
 q = int(input())
 
