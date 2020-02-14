@@ -9,6 +9,7 @@ def fibo1(n):
     # n이 이보다 같거나 크고 n이 메모 길이보다 길면 -> 아직 계산되지 않았다면
     if n >= 2 and len(memo) <= n:
         memo.append(fibo1(n-1) + fibo1(n-2))
+        print(memo)
     return memo[n]  # 아니라면 -> 이미 계산된 값이라면 -> 메모리제이션 배열에 저장된 값을 리턴
 
 memo = [0, 1]
