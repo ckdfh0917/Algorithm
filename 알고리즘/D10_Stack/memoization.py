@@ -21,6 +21,7 @@ def fibo2(n):
     f = [0,1]   # 초기화
     for i in range(2,n+1):
         f.append(f[i-1]+f[i-2])
+        print(f)
     return f[n]
 
 print(fibo2(5))
