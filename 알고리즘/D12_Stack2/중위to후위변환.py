@@ -33,6 +33,7 @@ for x in infix:
     if is_number(x):
         postfix.append(x)
     else:
+
         if x == '(':
             stack.append(x)
         elif x == ')':
@@ -42,17 +43,18 @@ for x in infix:
                     break
                 postfix.append(temp)
 
-        elif icp(x) >= isp(stack[-1]):
+        elif icp(x) > isp(stack[-1]):
             if icp(x) == isp(stack[-1]):
                 temp = stack.pop()
                 postfix.append(temp)
                 stack.append(x)
             else:
                 stack.append(x)
-        elif icp(x) < isp(stack[-1]):
+        elif icp(x) <= isp(stack[-1]):
             temp = stack.pop()
-            stack.append(temp)
-
+            postfix.append(temp)
+            stack.append(x)
+        #print('a', x, stack[-1],icp(x),isp(stack[-1]))
 
     # print('a', postfix)
     # print('b', stack)
