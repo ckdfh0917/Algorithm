@@ -4,12 +4,23 @@ sys.stdin = open('input.txt', 'r')
 
 q = int(input())
 
-def ss(N):
-    arr = []
-
-    for i in range(N):
-        
-
+def permute(arr):
+    result = [arr[:]]
+    c = [0] * len(arr)
+    i = 0
+    while i < len(arr):
+        if c[i] < i:
+            if i % 2 == 0:      # 짝수
+                arr[0], arr[i] = arr[i], arr[0]
+            else:               # 홀수
+                arr[c[i]], arr[i] = arr[i], arr[c[i]]
+            result.append(arr[:])
+            c[i] += 1
+            i = 0
+        else:
+            c[i] = 0
+            i += 1
+    return result
 
 for test_case in range(1,q+1):
     N = int(input())
@@ -18,12 +29,6 @@ for test_case in range(1,q+1):
     for _ in range(N):
         arr.append(list(map(int,input().split())))
     #print(arr)
-
-    min_V = 0
-    min_I = 0
-    visited = [0] * N
-    for i in range(N):
-        if min_V > arr[0][i]:
-            min_V = arr[0][i]
-            min_I = i
-    visited[i] = 1
+    arr = [1, 2, 3]
+    new_arr = permute(arr)
+    print(new_arr)
