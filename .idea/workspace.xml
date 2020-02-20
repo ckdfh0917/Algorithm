@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/15596. 정수 N개의 합.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,28 +17,29 @@
     <session id="-467342106">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1482" />
+          <entry key="py" value="1839" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1482" />
+          <entry key="Python" value="1839" />
         </counts>
       </usages-collector>
     </session>
@@ -50,10 +49,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="247">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
-                <marker date="1582172159294" expanded="true" signature="18:489" ph="..." />
+                <marker date="1582188874805" expanded="true" signature="0:589" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,10 +68,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/15596. 정수 N개의 합.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="114">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding>
+                <marker date="1582189607782" expanded="true" signature="13:18" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,15 +88,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>20</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/15596. 정수 N개의 합.py" />
       </list>
     </option>
   </component>
@@ -171,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tes">
+  <component name="RunManager" selected="Python.4673. 셀프 넘버">
     <configuration name="1065. 한수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,9 +316,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4673. 셀프 넘버" />
         <item itemvalue="Python.tes" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.4673. 셀프 넘버" />
         <item itemvalue="Python.1065. 한수" />
         <item itemvalue="Python.4344. 평균은 넘겠지" />
       </list>
@@ -334,7 +342,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -342,7 +350,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,11 +396,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="247">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
-            <marker date="1582172159294" expanded="true" signature="18:489" ph="..." />
+            <marker date="1582188874805" expanded="true" signature="0:589" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -403,10 +418,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py">
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/15596. 정수 N개의 합.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <marker date="1582189607782" expanded="true" signature="13:18" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
