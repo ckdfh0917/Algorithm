@@ -2,53 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/10871. X보다 작은 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/10950. A+B -3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/11021. A+B -7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/11022. A+B -8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/15552. 빠른 A+B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/2438. 별 찍기 -1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/2439. 별 찍기 -2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/2739. 구구단.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/2741. N 찍기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/2742. 기찍 N.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/3. for문/8393. 합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/4. while문/10951. A+B -4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/4. while문/10952. A+B -5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/4. while문/1110. 더하기 사이클.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/10818. 최소, 최대.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/1546. 평균.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/2562. 최댓값.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/2577. 숫자의 개수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/3052. 나머지.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/4344. 평균은 넘겠지.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/8958. OX퀴즈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/1065. 한수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/1000. A+B.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/1000. A+B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/1001. A-B.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/1001. A-B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/1008. A%B.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/1008. A%B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10171. 고양이.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10171. 고양이.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10172. 개.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10172. 개.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10430. 나머지.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10430. 나머지.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10718. We love kriii.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10718. We love kriii.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10869. 사칙연산py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10869. 사칙연산py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/10998. AxB.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/10998. AxB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/2557. Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/2557. Hello World.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1. 입출력과 사칙연산/2588. 곱셈.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1. 입출력과 사칙연산/2588. 곱셈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2. if문/10817. 세 수.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/10817. 세 수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2. if문/1330. 두 수 비교하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/1330. 두 수 비교하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2. if문/2753. 윤년.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/2753. 윤년.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2. if문/2884. 알람 시계.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/2884. 알람 시계.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2. if문/9488. 시험 성적.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/9488. 시험 성적.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-467342106">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1482" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1482" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <marker date="1582172159294" expanded="true" signature="18:489" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +89,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
@@ -67,6 +105,43 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+              <item name="단계별로 풀어보기" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+              <item name="단계별로 풀어보기" type="462c0819:PsiDirectoryNode" />
+              <item name="7. 함수" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -84,7 +159,19 @@
       <recent name="C:\Users\multicampus\Desktop\ChangRo\Algorithm\백준\1. 입출력과 사칙연산" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1065. 한수">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tes">
     <configuration name="1065. 한수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,27 +185,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/1065. 한수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1546. 평균" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/1546. 평균.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,27 +214,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3052. 나머지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별/6. 1차원 배열" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별/6. 1차원 배열/3052. 나머지.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="4344. 평균은 넘겠지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8958. OX퀴즈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4673. 셀프 넘버" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +243,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/6. 1차원 배열/8958. OX퀴즈.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,19 +300,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.3052. 나머지" />
-      <item itemvalue="Python.1546. 평균" />
-      <item itemvalue="Python.8958. OX퀴즈" />
       <item itemvalue="Python.4344. 평균은 넘겠지" />
       <item itemvalue="Python.1065. 한수" />
+      <item itemvalue="Python.4673. 셀프 넘버" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.tes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tes" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.4673. 셀프 넘버" />
         <item itemvalue="Python.1065. 한수" />
         <item itemvalue="Python.4344. 평균은 넘겠지" />
-        <item itemvalue="Python.8958. OX퀴즈" />
-        <item itemvalue="Python.1546. 평균" />
-        <item itemvalue="Python.3052. 나머지" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +328,32 @@
       <updated>1582071679158</updated>
     </task>
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="196" y="136" key="#구구단" timestamp="1582114342020">
@@ -271,5 +384,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582123909997" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/4673. 셀프 넘버.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <marker date="1582172159294" expanded="true" signature="18:489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/7. 함수/tes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
