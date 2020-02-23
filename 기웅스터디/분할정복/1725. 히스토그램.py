@@ -53,7 +53,7 @@ def find(s,e):
 
 def find_max(s,e):  # n = len(lst)
     global arr
-    if (e-s) <= 1:
+    if (e-s) == 1:
         arr.append(find(s,e))
         return
     else:
