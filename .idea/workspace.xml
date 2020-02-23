@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열/1316. 그룹 단어 체커.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열/2941. 크로아티아 알파벳.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/1712,. 손익분기점.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/2292. 벌집.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/2839. 설탕 배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/DP/2193. 이친수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/분할정복/1629. 곱셈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/분할정복/1725. 히스토그램.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/분할정복/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D03_List/List1/d02_minmax_이창로.py.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D03_List/d02_minmax_이창로.py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D03_List/List1/d02_구간합_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D03_List/d02_구간합_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D03_List/List1/d02_숫자카드_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D03_List/d02_숫자카드_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D03_List/List1/d02_전기버스_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D03_List/d02_전기버스_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/2일차 - Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/2일차 - Sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/d04_금속막대.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/d04_금속막대.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/d04_부분집합의합_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/d04_부분집합의합_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/d04_색칠하기_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/d04_색칠하기_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/d04_이진탐색_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/d04_이진탐색_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/d04_특벼한 정렬_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/d04_특벼한 정렬_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D04_List/List2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D04_List/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +56,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D03_List" />
+      <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D04_List" />
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\단계별로 풀어보기\8. 문자열" />
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\단계" />
-      <recent name="C:\Users\multicampus\Desktop\ChangRo\Algorithm\백준\1. 입출력과 사칙연산" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2839. 설탕 배달">
-    <configuration name="1316. 그룹 단어 체커" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1725. 히스토그램">
+    <configuration name="1629. 곱셈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/분할정복" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열/1316. 그룹 단어 체커.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/분할정복/1629. 곱셈.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,6 +98,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/1712,. 손익분기점.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1725. 히스토그램" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/분할정복" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/분할정복/1725. 히스토그램.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2193. 이친수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/2193. 이친수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,63 +190,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2941. 크로아티아 알파벳" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열/2941. 크로아티아 알파벳.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5622. 다이얼" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/8. 문자열/5622. 다이얼.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.5622. 다이얼" />
-      <item itemvalue="Python.2941. 크로아티아 알파벳" />
-      <item itemvalue="Python.1316. 그룹 단어 체커" />
       <item itemvalue="Python.1712,. 손익분기점" />
       <item itemvalue="Python.2839. 설탕 배달" />
+      <item itemvalue="Python.2193. 이친수" />
+      <item itemvalue="Python.1629. 곱셈" />
+      <item itemvalue="Python.1725. 히스토그램" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1725. 히스토그램" />
+        <item itemvalue="Python.1629. 곱셈" />
+        <item itemvalue="Python.2193. 이친수" />
         <item itemvalue="Python.2839. 설탕 배달" />
         <item itemvalue="Python.1712,. 손익분기점" />
-        <item itemvalue="Python.1316. 그룹 단어 체커" />
-        <item itemvalue="Python.2941. 크로아티아 알파벳" />
-        <item itemvalue="Python.5622. 다이얼" />
       </list>
     </recent_temporary>
   </component>
@@ -219,35 +230,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="196" y="136" key="#구구단/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582114342020" />
-    <state width="936" height="283" key="GridCell.Tab.0.bottom" timestamp="1582351210418">
+    <state width="936" height="282" key="GridCell.Tab.0.bottom" timestamp="1582424814767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="936" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582351210418" />
-    <state width="936" height="283" key="GridCell.Tab.0.center" timestamp="1582351210417">
+    <state width="936" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582424814767" />
+    <state width="936" height="282" key="GridCell.Tab.0.center" timestamp="1582424814767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="936" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582351210417" />
-    <state width="936" height="283" key="GridCell.Tab.0.left" timestamp="1582351210417">
+    <state width="936" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582424814767" />
+    <state width="936" height="282" key="GridCell.Tab.0.left" timestamp="1582424814767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="936" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582351210417" />
-    <state width="936" height="283" key="GridCell.Tab.0.right" timestamp="1582351210418">
+    <state width="936" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582424814767" />
+    <state width="936" height="282" key="GridCell.Tab.0.right" timestamp="1582424814767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="936" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582351210418" />
+    <state width="936" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582424814767" />
     <state x="0" y="165" key="SettingsEditor" timestamp="1582346699137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582207314673" />
     <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582346699137" />
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582349505808">
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1582390979172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582123909997" />
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582349505808" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582390979172" />
   </component>
 </project>
