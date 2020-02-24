@@ -2,40 +2,31 @@ N = int(input())
 budget = list(map(int, input().split()))
 M = int(input())
 
-k = sum(budget)
-max_V = max(budget)
-min_V = 0
-result = 0
-temp = max_V // 2
-if k <= M:  # 예산 이내이면
-    result = max(budget)
-    print('a')
-elif min(budget) > M // N:  # 예산의 최저보다 총 예산 1/ N 이 작으면
-    result = M // N
-    print('b')
-else:       # 예산 초과이면
-    while True:
-        k = temp * N
-        # print('k',k,M)
-        # print('t1',temp, min_V, max_V)
-        if k > M:
-            max_V = temp
-            temp = (min_V + temp) // 2
-        elif k < M:
-            min_V = temp
-            temp = (temp + max_V) // 2
-        # print('t2',temp, min_V, max_V)
-        if min_V + 1 == max_V:
-            result = min_V
-            break
+def find(min_V, max_V):
+    mid = (min_V + max_V) // 2
+    if min_V > max_V:
+        print(mid)
+        return
+    else:
+        sum_V = 0
+        for i in range(N):
+            if mid >= budget[i]:
+                sum_V += budget[i]
+            else:
+                sum_V += mid
+        if sum_V == M:
+            print(mid)
+            return
+        elif sum_V < M:
+            find(mid+1,max_V)
+        elif sum_V > M:
+            find(min_V, mid-1)
+        # print('b',min_V,mid,max_V)
 
-# print(result * N)
-a = result * N
-cnt = 0
-for i in range(N):
-    if budget[i] <= result:
-        a -= budget[i]
-        cnt += 1
-# print(a)
-res = a // (N-cnt)
-print(res)
+k = sum(budget)
+result = 0
+if k <= M:  # 총 예산이 예산 요청의 합 보다 크면 원하는 만큼 준다
+    result = max(budget)
+    print(result)
+else:       # 총 예산이 예산 요청의 합 보다 작으면
+    find(1,10**5)
