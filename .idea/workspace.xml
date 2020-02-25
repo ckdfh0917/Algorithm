@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#624/A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#624/B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기웅스터디/DP/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/DP/1904. 01타일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/순열_조합/11050. 이항 계수 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/순열_조합/11051. 이항 계수 2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D3/5293. 이진 문자열 복원.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/5293. 이진 문자열 복원.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/기웅스터디/DP/1463. 1로 만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/DP/1463. 1로 만들기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +54,50 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\단계" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B">
-    <configuration name="1463. 1로 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5293. 이진 문자열 복원">
+    <configuration name="11050. 이항 계수 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/순열_조합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/순열_조합/11050. 이항 계수 1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11051. 이항 계수 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/순열_조합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/순열_조합/11051. 이항 계수 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1904. 01타일" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,49 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/1463. 1로 만들기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1654. 랜선 자르기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/이분탐색" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/이분탐색/1654. 랜선 자르기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2512. 예산" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/이분탐색" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/이분탐색/2512. 예산.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/1904. 01타일.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,6 +139,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5293. 이진 문자열 복원" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW-Expert-Academy/D3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SW-Expert-Academy/D3/5293. 이진 문자열 복원.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,42 +181,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#624" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#624/B.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.2512. 예산" />
-      <item itemvalue="Python.1654. 랜선 자르기" />
-      <item itemvalue="Python.1463. 1로 만들기" />
       <item itemvalue="Python.A" />
-      <item itemvalue="Python.B" />
+      <item itemvalue="Python.1904. 01타일" />
+      <item itemvalue="Python.5293. 이진 문자열 복원" />
+      <item itemvalue="Python.11050. 이항 계수 1" />
+      <item itemvalue="Python.11051. 이항 계수 2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.B" />
+        <item itemvalue="Python.5293. 이진 문자열 복원" />
+        <item itemvalue="Python.11051. 이항 계수 2" />
+        <item itemvalue="Python.11050. 이항 계수 1" />
+        <item itemvalue="Python.1904. 01타일" />
         <item itemvalue="Python.A" />
-        <item itemvalue="Python.1463. 1로 만들기" />
-        <item itemvalue="Python.1654. 랜선 자르기" />
-        <item itemvalue="Python.2512. 예산" />
       </list>
     </recent_temporary>
   </component>
@@ -219,26 +221,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="196" y="136" key="#구구단/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582114342020" />
-    <state width="950" height="291" key="GridCell.Tab.0.bottom" timestamp="1582562018852">
+    <state width="950" height="228" key="GridCell.Tab.0.bottom" timestamp="1582619183797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="950" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582562018852" />
-    <state width="950" height="291" key="GridCell.Tab.0.center" timestamp="1582562018851">
+    <state width="950" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582619183797" />
+    <state width="950" height="228" key="GridCell.Tab.0.center" timestamp="1582619183797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="950" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582562018851" />
-    <state width="950" height="291" key="GridCell.Tab.0.left" timestamp="1582562018851">
+    <state width="950" height="228" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582619183797" />
+    <state width="950" height="228" key="GridCell.Tab.0.left" timestamp="1582619183797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="950" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582562018850" />
-    <state width="950" height="291" key="GridCell.Tab.0.right" timestamp="1582562018851">
+    <state width="950" height="228" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582619183797" />
+    <state width="950" height="228" key="GridCell.Tab.0.right" timestamp="1582619183797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="936" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582212424671" />
-    <state width="950" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582562018851" />
+    <state width="950" height="228" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582619183797" />
     <state x="0" y="165" key="SettingsEditor" timestamp="1582346699137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
