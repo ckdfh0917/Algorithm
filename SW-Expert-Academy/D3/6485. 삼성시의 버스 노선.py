@@ -6,7 +6,6 @@ sys.stdin = open('input.txt', 'r')
 c의 순서대로 버스가 지나가는 수를 세어야함
 '''
 
-
 q = int(input())
 
 
