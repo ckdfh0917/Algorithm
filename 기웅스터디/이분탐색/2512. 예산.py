@@ -2,6 +2,7 @@ N = int(input())
 budget = list(map(int, input().split()))
 M = int(input())
 
+
 def find(min_V, max_V):
     mid = (min_V + max_V) // 2
     if min_V > max_V:
