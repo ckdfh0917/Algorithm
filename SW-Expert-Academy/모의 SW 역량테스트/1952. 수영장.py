@@ -52,3 +52,25 @@ for test_case in range(1,q+1):
     print('d', temp)
     result = min(result, temp)
     print(result)
+
+'''
+def f(n,k,s,M):
+    global cnt
+    if s == M:
+        cnt += 1
+        return
+    elif n == k:
+        return
+    else:
+        f(n+1, k,s + A[n], M)
+        f(n+1, k, s, M)
+        
+
+T = int(input())
+for tc in range(1, 1+1):
+    d, m, m3, y = map(int, input().split())
+    table = [0] + list(map(int, input().split()))
+    minV = y
+    f(1, 0, d, m, m3)
+    print('#{} {}'.format(tc, minV))
+'''
