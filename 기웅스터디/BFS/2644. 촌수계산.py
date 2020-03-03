@@ -8,30 +8,23 @@ visited = [False] * (n+1)
 for _ in range(m):
     x, y = map(int, input().split())
     lst[x].append(y)
-print(lst)
+    lst[y].append(x)
 
-def bfs(k):
-    visited[k] = True
-    Q = [k]
-    flag = 0
-    res = 0
+def bfs(start):
+    visited[start] = True
+    Q = [start, 0]
     while Q:
         curr = Q.pop(0)
-        if flag == 0:
-            for next in lst[curr]:
-                print('a',next, visited)
-                if next == a:
-                    flag = 1
-                    for i in range(len(visited)):
-                        visited[i] = False
-                if not visited[next]:
-                    visited[next] = True
-                    Q.append(next)
-        if flag == 1:
+        dist = Q.pop(0)
+        if curr == b:
+            return print(dist)
 
-            if flag == 1 and next == b:
-                return res
+        for nex in lst[curr]:
+            if not visited[nex]:
+                visited[nex] = True
+                Q.append(nex)
+                Q.append(dist+1)
 
-    return -1
+    return print(-1)
 
-print(bfs(1))
+bfs(a)
