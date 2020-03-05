@@ -1,32 +1,30 @@
 N, K = map(int, input().split())
+board = ['?'] * N
+alpha_check = [False] * 26
+work_stack = []
+for _ in range(K):
+    a, b = input().split()
+    a = int(a)
+    work_stack.append(a)
+    work_stack.append(b)
 
-lst = ['?'] * N
-apb = [False] * 26
-idx = 0
-for _ in range(N):
-    S, K = map(str, input().split())
-    S = int(S)
-
-    idx = (idx + S) % N
-    # print(apb)
-    if lst[idx] == '?':
-        if not apb[ord(K) - ord('A')]:
-            apb[ord(K) - ord('A')] = True
-            lst[idx] = K
+i = 0
+while work_stack:
+    alpha = work_stack.pop()
+    if board[i] == '?':
+        if not alpha_check[ord(alpha)-ord('A')]:
+            board[i] = alpha
+            alpha_check[ord(alpha)-ord('A')] = True
         else:
             print('!')
             break
     else:
-        if lst[idx] != K:
+        if board[i] != alpha:
             print('!')
             break
+    i += work_stack.pop()
+    i %= N
+    # print('a', board)
 else:
-    # print(lst)
-    for i in range(idx+1):
-        temp = lst.pop(0)
-        lst.append(temp)
-    # print(lst)
-    lst.reverse()
-    print(''.join(lst))
-
-
+    print(board)
+    print(*board, sep='')
