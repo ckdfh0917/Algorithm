@@ -7,7 +7,7 @@ maxV = minV*N
 rope.sort(reverse=True)
 
 for i in range(1,N+1):
-    temp = min(rope[0:i])
+    temp = rope[i-1]
     k = temp * (i)
     maxV = max(maxV, k)
 print(maxV)
