@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/10870. 피보나치 수 5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/10872. 팩토리얼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/2447. 별 찍기 - 10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/5543. 상근날드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#627/A.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#627/B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#627/C.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 3/#627/D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/re11729. 하노이 탑 이동 순서.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/기웅스터디/DP/2294. 동전 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/DP/2294. 동전 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/11729. 하노이 탑 이동 순서.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,49 +56,7 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2447. 별 찍기 - 10">
-    <configuration name="10870. 피보나치 수 5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/10870. 피보나치 수 5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10872. 팩토리얼" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/10872. 팩토리얼.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.A">
     <configuration name="2294. 동전 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,27 +70,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/2294. 동전 2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2447. 별 찍기 - 10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/2447. 별 찍기 - 10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5543. 상근날드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +107,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#627" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/2. if문/5543. 상근날드.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#627/A.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="C" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#627" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#627/C.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#627" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#627/D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="re11729. 하노이 탑 이동 순서" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\SSAFY\SW-Expert-Academy\백준\단계별로 풀어보기\11. 재귀\re11729. 하노이 탑 이동 순서.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,19 +185,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
+      <item itemvalue="Python.re11729. 하노이 탑 이동 순서" />
       <item itemvalue="Python.2294. 동전 2" />
-      <item itemvalue="Python.5543. 상근날드" />
-      <item itemvalue="Python.10872. 팩토리얼" />
-      <item itemvalue="Python.10870. 피보나치 수 5" />
-      <item itemvalue="Python.2447. 별 찍기 - 10" />
+      <item itemvalue="Python.A" />
+      <item itemvalue="Python.C" />
+      <item itemvalue="Python.D" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2447. 별 찍기 - 10" />
-        <item itemvalue="Python.10870. 피보나치 수 5" />
-        <item itemvalue="Python.10872. 팩토리얼" />
-        <item itemvalue="Python.5543. 상근날드" />
+        <item itemvalue="Python.A" />
+        <item itemvalue="Python.D" />
+        <item itemvalue="Python.C" />
         <item itemvalue="Python.2294. 동전 2" />
+        <item itemvalue="Python.re11729. 하노이 탑 이동 순서" />
       </list>
     </recent_temporary>
   </component>
@@ -233,51 +235,55 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
-    <state width="936" height="283" key="GridCell.Tab.0.bottom" timestamp="1583939407517">
+    <state width="936" height="295" key="GridCell.Tab.0.bottom" timestamp="1584024314741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583939407517" />
+    <state width="936" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584024314741" />
     <state width="936" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583919511301" />
-    <state width="936" height="283" key="GridCell.Tab.0.center" timestamp="1583939407517">
+    <state width="936" height="295" key="GridCell.Tab.0.center" timestamp="1584024314739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583939407517" />
+    <state width="936" height="295" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584024314739" />
     <state width="936" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583919511300" />
-    <state width="936" height="283" key="GridCell.Tab.0.left" timestamp="1583939407517">
+    <state width="936" height="295" key="GridCell.Tab.0.left" timestamp="1584024314738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583939407517" />
+    <state width="936" height="295" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584024314738" />
     <state width="936" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583919511300" />
-    <state width="936" height="283" key="GridCell.Tab.0.right" timestamp="1583939407517">
+    <state width="936" height="295" key="GridCell.Tab.0.right" timestamp="1584024314740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583939407517" />
+    <state width="936" height="295" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584024314740" />
     <state width="936" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583919511301" />
-    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1582785735280">
+    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584004828329" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582785735280" />
-    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1582785735279">
+    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1584004828329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584004828329" />
     <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582785735279" />
-    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1582785735279">
+    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1584004828329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584004828329" />
     <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582785735279" />
-    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1582785735280">
+    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1584004828329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584004828329" />
     <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582785735280" />
     <state x="0" y="165" key="SettingsEditor" timestamp="1582346699137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582207314673" />
     <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582346699137" />
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1583241295477">
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1584020366575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582974432047" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584020366575" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583241295477" />
   </component>
   <component name="XDebuggerManager">
