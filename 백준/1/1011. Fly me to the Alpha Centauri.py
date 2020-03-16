@@ -18,14 +18,3 @@ for _ in range(T):
                 else:
                     print(2*n)
                     break
-
-                    # ####
-                    # asdadq12
-                    # asdzcx
-                    # zip(xz
-                    #     xcz
-                    # cz
-                    # z
-                    # c
-                    # xzc
-                    # zip())
