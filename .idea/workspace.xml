@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/1002. 터렛.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/1085. 직사각형에서 탈출.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/1929. 소수 구하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/1978. 소수 찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/2581. 소수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/3009. 네 번째 점.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/3053. 택시 기하학.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/4153. 직각삼각형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/10. 수학2/4948. 베르트랑 공준.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/2775. 부녀회장이 될테야.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알쓸신잡/pi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/10250. ACM 호텔.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/10250. ACM 호텔.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/1193. 분수찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9. 수학1/1193. 분수찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기웅스터디/이분탐색/2110. 공유기 설치.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/이분탐색/2110. 공유기 설치.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
