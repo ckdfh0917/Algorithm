@@ -1,43 +1,29 @@
 N, M = map(int, input().split())
 numbers = list(map(int, input().split()))
-P = N
-temp = 0
-cnt = 0
-# print('a')
+
+a = [0] * N
 for i in range(M):
-    print('i', i, numbers[i], temp, numbers[i] + temp)
-    while True:
-        if numbers[i] + temp > N:
-            numbers[i] = (numbers[i]) - N
-        else:
+    a[numbers[i] - 1] = i+1
+d = 1
+cnt = 0
+while d <= M:
+    for i in range(N):
+        flag = 0
+        if a[i] == d:
+            while True:
+                if a[0] == d:
+                    a.pop(0)
+                    flag = 1
+                    break
+                if i+1 <= (len(a)//2)+1:
+                    t = a.pop(0)
+                    a.append(t)
+                    cnt += 1
+                else:
+                    t = a.pop()
+                    a.insert(0, t)
+                    cnt += 1
+        if flag == 1:
+            d += 1
             break
-    while True:
-        if numbers[i] + temp < 1:
-            a = numbers[i] + temp + 1 + 1
-            numbers[i] = -temp + numbers[i] + temp + P -1
-        else:
-            break
-    print('================================')
-    print('i2', i, numbers[i], temp, numbers[i] + temp)
-
-    while True:
-        print('q', numbers[i], temp)
-
-        if numbers[i] + temp == 1:
-            temp -= 1
-            N -= 1
-            break
-        if numbers[i]+temp <= N // 2 + 1:
-            temp -= 1
-            if numbers[i] + temp < 1:
-                numbers[i] = N - temp
-            cnt += 1
-        else:
-            temp += 1
-            if numbers[i] + temp > N:
-                numbers[i] = -temp + 1
-            cnt += 1
-        print('p', numbers[i] + temp, N, end=' ')
-        print('c',cnt)
-
 print(cnt)
