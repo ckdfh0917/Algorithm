@@ -1,4 +1,5 @@
 import sys
+input = sys.stdin.readline
 sys.setrecursionlimit(100000)
 
 M, N, K = map(int, input().split())
@@ -22,31 +23,50 @@ for _ in range(K):
 # for q in range(M):
 #     print(box[q])
 
-dx = [-1, 0, 1, 0]
-dy = [0, 1, 0, -1]
+dx = [0, 1, 0, -1]
+dy = [-1, 0, 1, 0]
 
-def dfs(a, b):
+def dfs(a, b):  # 세로, 가로
     global temp
-    if not visited[a][b] and box[a][b] == 0:
-        visited[a][b] = True
-        # print('ddddd',a,b)
-        for k in range(4):
-            if 0 <= a+dy[k] < M and 0 <= b+dx[k] < N:
-                if box[a+dy[k]][b+dx[k]] == 0 and not visited[a+dy[k]][b+dx[k]]:
-                    temp += 1
-                    dfs(a+dy[k], b+dx[k])
+    visited[a][b] = True
+    # print('ddddd',a,b)
+    for k in range(4):
+        if 0 <= a+dy[k] < M and 0 <= b+dx[k] < N:
+            if box[a+dy[k]][b+dx[k]] == 0 and not visited[a+dy[k]][b+dx[k]]:
+                temp += 1
+                dfs(a+dy[k], b+dx[k])
+    return
 
 
-visited = [[False] * N for _ in range(M)]
+visited = [[0] * N for _ in range(M)]
 area = []
 temp = 0
 cnt = 0
+stack = []
 for i in range(M):      # 세로
     for j in range(N):  # 가로
         if box[i][j] == 0 and not visited[i][j]:
             cnt += 1
             temp = 1
-            dfs(i,j)    # 가로, 세로
+            y, x = i, j
+            visited[y][x] = 1
+            while True:
+                # print('ddddd',a,b)
+                if visited[y][x] == 0:
+                    temp += 1
+                visited[y][x] = 1
+                # for q in range(M):
+                #     print(visited[q])
+                # print('=================', temp)
+                for k in range(4):
+                    if 0 <= y + dy[k] < M and 0 <= x + dx[k] < N:
+                        if box[y + dy[k]][x + dx[k]] == 0 and visited[y + dy[k]][x + dx[k]] == 0:
+                            stack.append([y + dy[k], x + dx[k]])
+                if not stack:
+                    break
+                else:
+                    y, x = stack.pop()
+
             area.append(temp)
 area.sort()
 print(cnt)
