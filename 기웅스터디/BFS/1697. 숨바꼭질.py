@@ -15,7 +15,6 @@ def f(x, y):
     else:
         q.append([y, 0])
         visited[y] = 1
-        flag = 1
         while q:
             print(q)
             t, cnt = q.popleft()
@@ -34,11 +33,7 @@ def f(x, y):
                         q.append([t-1, cnt+1])
                     if visited[t+1] == 0:
                         q.append([t+1, cnt+1])
-
-            if t == 0:
-                if 0 <= y+flag <= 100000:
-                    q.append([y+flag, flag])
-                if 0 <= y-flag <= 100000:
-                    q.append([y-flag, flag])
-                flag += 1
+    if res == 100000:
+        pass
+    print(res)
 f(a, b)

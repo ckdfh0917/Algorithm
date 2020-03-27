@@ -9,3 +9,4 @@ def getSubset(lst):
                 temp.append(lst[j])
         result.append(temp)
     return result
+
