@@ -37,3 +37,4 @@ def f(x, y):
         pass
     print(res)
 f(a, b)
+
