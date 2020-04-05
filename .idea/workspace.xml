@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/1491. 원재의 벽 꾸미기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D3/1244. 최대 상금.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/1244. 최대 상금.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알쓸신잡/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/알쓸신잡/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SW-Expert-Academy" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +54,7 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1244. 최대 상금">
+  <component name="RunManager" selected="Python.1491. 원재의 벽 꾸미기">
     <configuration name="마이쮸" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +97,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1491. 원재의 벽 꾸미기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW-Expert-Academy/D3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SW-Expert-Academy/D3/1491. 원재의 벽 꾸미기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2884. 알람 시계" type="PythonConfigurationType" factoryName="Python">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,27 +131,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/2. if문/2884. 알람 시계.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5099. 피자 굽기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW-Expert-Academy/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SW-Expert-Academy/D3/5099. 피자 굽기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,20 +182,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.5099. 피자 굽기" />
-      <item itemvalue="Python.마이쮸" />
-      <item itemvalue="Python.5102. 노드의 거리" />
       <item itemvalue="Python.1244. 최대 상금" />
+      <item itemvalue="Python.1491. 원재의 벽 꾸미기" />
+      <item itemvalue="Python.2884. 알람 시계" />
+      <item itemvalue="Python.5102. 노드의 거리" />
       <item itemvalue="Python.이창로_미로의 거리" />
+      <item itemvalue="Python.마이쮸" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1491. 원재의 벽 꾸미기" />
         <item itemvalue="Python.1244. 최대 상금" />
         <item itemvalue="Python.이창로_미로의 거리" />
         <item itemvalue="Python.5102. 노드의 거리" />
         <item itemvalue="Python.마이쮸" />
-        <item itemvalue="Python.5099. 피자 굽기" />
       </list>
     </recent_temporary>
   </component>
@@ -230,28 +234,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
-    <state width="936" height="309" key="GridCell.Tab.0.bottom" timestamp="1585983606529">
+    <state width="936" height="309" key="GridCell.Tab.0.bottom" timestamp="1586017489930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585983606529" />
+    <state width="936" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586017489930" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="309" key="GridCell.Tab.0.center" timestamp="1585983606529">
+    <state width="936" height="309" key="GridCell.Tab.0.center" timestamp="1586017489930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="309" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585983606529" />
+    <state width="936" height="309" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586017489930" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="309" key="GridCell.Tab.0.left" timestamp="1585983606529">
+    <state width="936" height="309" key="GridCell.Tab.0.left" timestamp="1586017489930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="309" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585983606529" />
+    <state width="936" height="309" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586017489930" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="309" key="GridCell.Tab.0.right" timestamp="1585983606529">
+    <state width="936" height="309" key="GridCell.Tab.0.right" timestamp="1586017489930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="309" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585983606529" />
+    <state width="936" height="309" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586017489930" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
