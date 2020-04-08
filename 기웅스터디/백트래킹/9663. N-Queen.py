@@ -9,7 +9,8 @@ def promissing(level):   # 체스말을 놓을 수 있는지 없는지 판단하
 
 def queen(level):
     global cnt
-    # print('q')
+    print(level)
+    print(cols)
     if promissing(level) == False:   # 백트래킹
         return
     # 재귀호출로 각 행에 체스를 놓기
