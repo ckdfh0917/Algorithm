@@ -11,6 +11,7 @@ class LinkedList:
 
 def printList(lst):     # lst: LinkedList 객체체
     if lst.head is None:    # 빈 lst
+        print('empty')
         return
     cur = lst.head
 
@@ -69,7 +70,7 @@ def insertAt(lst, idx, new):    # idx: 인덱스 값
         insertFirst(lst, new)
     # 마지막 추가하는 경우 idx >= lst.size
     elif idx >= lst.size:
-        insertFirst(lst, new)
+        insertLast(lst, new)
     # 중간에 추가하는 경우
     else:
         pre, cur = None, lst.head
@@ -86,28 +87,30 @@ def deleteAt(lst, idx):
     elif idx >= lst.size:
         deleteLast(lst)
     else:
-        pass
+        pre, cur = None, lst.head
+        for _ in range(idx):
+            pre = cur
+            cur = cur.next
+        pre.next = cur.next
+        lst.size -= 1
 
 def Search(lst, idx):
     cur = lst.head
-
-    for i in range(idx):
+    # if idx >= lst.size or lst.head is None:
+    #     return print(-1)
+    for _ in range(idx):
+        if cur is None:
+            return print(-1)
+        if cur.next is None:
+            return print(-1)
         cur = cur.next
     print(cur.data)
 
-
-mylist = LinkedList()
-
-# for i in range(5):
-#     insertFirst(mylist, Node(i))
-#     printList(mylist)
-#
-# for i in range(3):
-#     insertAt(mylist, 2, Node(i + 10))
-#     printList(mylist)
-#
-# insertAt(mylist, 6, Node(-1))
-# printList(mylist)
+def Change(lst, idx, num):
+    cur = lst.head
+    for _ in range(idx):
+        cur = cur.next
+    cur.data = num
 
 T = int(input())
 for test_case in range(1, T+1):
@@ -120,7 +123,25 @@ for test_case in range(1, T+1):
         insertLast(newlist, Node(i))
     # printList(newlist)
 
-    for i in range(M):
-        idx, num = map(int, input().split())
-        insertAt(newlist, idx, Node(num))
+    for _ in range(M):
+        command = list(map(str, input().split()))
+        # print(command)
+        cmd = command[0]
+        idx = int(command[1])
+        if cmd == 'I':
+            num = int(command[2])
+            insertAt(newlist, idx, Node(num))
+            # print('i')
+            # printList(newlist)
+        elif cmd == 'D':
+            deleteAt(newlist, idx)
+            # print('d')
+            # printList(newlist)
+        elif cmd == 'C':
+            num = int(command[2])
+            Change(newlist, idx, num)
+            # print('c')
+            # printList(newlist)
+    # printList(newlist)
+
     Search(newlist, L)
