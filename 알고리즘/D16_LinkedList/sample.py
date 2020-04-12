@@ -17,15 +17,15 @@ def addList(lst, arr):
         new = Node(val, last)
         last.next = new
         last = new
-    if lst.head is None:
-        lst.head, lst.tail = first, last
+
+    if lst.head is not None:
+        lst.head = lst.tail = first, last
     else:
         cur = lst.head
         while cur is not None:
             if cur.data > arr[0]:
                 break
             cur = cur.next
-
         if cur is None:     # 마지막
             first.prev = lst.tail
             lst.tail.next = first
@@ -45,29 +45,24 @@ def addList(lst, arr):
 def printList(lst):
     if lst.head is None:
         return
-    # cur = lst.head
-    # while cur is not None:
-    #     print(cur.data, end=' ')
-    #     cur = cur.next
-    # print()
+    cur = lst.head
+    while cur is not None:
+        print(cur.data, end=' ')
+        cur = cur.next
+    print()
     cur = lst.tail
-    for _ in range(10):
-    # while cur is not None:
+    while cur is not None:
         print(cur.data, end=' ')
         cur = cur.prev
-        if cur is None:
-            break
     print()
 
 
 T = int(input())
 for test_case in range(1, T+1):
-    N, M = map(int, input().split())
+    # N, M = map(int, input().split())
+    arr = [1, 3, 5, 7, 9]
     mylist = DoublyLinkedList()
-    for _ in range(M):
-        arr = list(map(int, input().split()))
-        addList(mylist, arr)
-    print('#{} '.format(test_case), end='')
+    addList(mylist, arr)
     printList(mylist)
-
-
+    addList(mylist, [0, 1, 2])
+    printList(mylist)
