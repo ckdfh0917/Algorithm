@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/1860. 진기의 최고급 붕어빵.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘/D16_LinkedList/sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘/D16_LinkedList/이창로_암호.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/알고리즘/D16_LinkedList/이창로_수열 합치기.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D16_LinkedList/이창로_수열 합치기.py" afterDir="false" />
     </list>
@@ -208,14 +205,13 @@
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
       <item itemvalue="Python.이창로_수열 편집" />
-      <item itemvalue="Python.sample" />
       <item itemvalue="Python.이창로_암호" />
+      <item itemvalue="Python.sample" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.이창로_암호" />
         <item itemvalue="Python.sample" />
-        <item itemvalue="Python.이창로_수열 편집" />
       </list>
     </recent_temporary>
   </component>
