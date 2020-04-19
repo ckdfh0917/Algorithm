@@ -16,4 +16,3 @@ for test_case in range(1, T+1):
                 arr[i//2] = arr[i]
 
     print('#{} {}'.format(test_case, arr[L]))
-
