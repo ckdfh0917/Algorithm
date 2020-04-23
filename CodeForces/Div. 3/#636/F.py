@@ -7,6 +7,10 @@ for _ in range(t):
         num = list(map(int, input().split()))
         k = num[0]
 
+        # 순서를 조작해야함
+
+
+
         for j in range(1, len(num)):
             if num[j] not in result:
                 result.append(num[j])
