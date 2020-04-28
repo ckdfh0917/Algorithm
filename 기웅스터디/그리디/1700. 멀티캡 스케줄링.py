@@ -5,17 +5,19 @@ stack = []
 visited = [0] * (K+1)
 cnt = 0
 for i in range(K):
-    # print(stack, num[i], visited, cnt)
+    print(stack, num[i], visited, cnt)
+    fluggedin = False
     if len(stack) < N:
         stack.append(num[i])
         # visited[num[i]] = 1
     else:
         if num[i] in stack:
+            print('bbb', num[i])
             continue
         flag = 0
         for j in range(N):
             if i+j < K:
-                # print('aa',i,j,i+j)
+                print('aa',i,j,i+j)
                 if num[i+j] in stack:
                     visited[num[i+j]] = 1
         for j in range(len(stack)):
@@ -25,8 +27,6 @@ for i in range(K):
                 flag = 1
                 break
 
-        # if flag == 0:
-        #     for x in range(i+1, K):
-        #         visited[num[x]] =
-
 print(cnt)
+
+
