@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/알고리즘/D18/이창로_단순 2진 암호코드.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기웅스터디/그리디/1700. 멀티캡 스케줄링.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/그리디/1700. 멀티캡 스케줄링.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,9 +203,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.2884. 알람 시계" />
       <item itemvalue="Python.1700. 멀티캡 스케줄링" />
       <item itemvalue="Python.2814. 최장 경로" />
-      <item itemvalue="Python.2884. 알람 시계" />
       <item itemvalue="Python.A" />
       <item itemvalue="Python.B" />
       <item itemvalue="Python.F" />
