@@ -1,32 +1,43 @@
 N, K = map(int, input().split())
 
 num = list(map(int, input().split()))
-stack = []
-visited = [0] * (K+1)
-cnt = 0
-for i in range(K):
-    print(stack, num[i], visited, cnt)
-    fluggedin = False
-    if len(stack) < N:
-        stack.append(num[i])
-        # visited[num[i]] = 1
-    else:
-        if num[i] in stack:
-            print('bbb', num[i])
-            continue
-        flag = 0
-        for j in range(N):
-            if i+j < K:
-                print('aa',i,j,i+j)
-                if num[i+j] in stack:
-                    visited[num[i+j]] = 1
-        for j in range(len(stack)):
-            if visited[stack[j]] == 0:
-                stack[j] = num[i]
-                cnt += 1
-                flag = 1
-                break
+plug = [0] * (max(num) + 1)
+result = 0
 
-print(cnt)
+for i in range(K):
+    pluggedin = False
+
+    for j in range(N):
+        if plug[j] == num[i]:
+            pluggedin = True
+            break
+
+    if pluggedin:
+        continue
+
+    for j in range(N):
+        if plug[j] == 0:
+            plug[j] = num[i]
+            pluggedin = True
+            break
+
+    if pluggedin:
+        continue
+
+    idx = -1        # plug 위치
+    deviceidx = -1  # 가장 안쓰는 용품
+    for j in range(N):
+        lastidx = 0
+        for k in range(i, K):
+            if plug[j] == num[k]:
+                break
+            lastidx += 1
+
+        if lastidx > deviceidx:
+            idx = j
+            deviceidx = lastidx
+    result += 1
+    plug[idx] = num[i]
+print(result)
 
 
