@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/알고리즘/D19_start/이진수_이창로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/Brute Force/2503. 숫자 야구.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/비트마스킹/1327. 소트 게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/이창로_암호코드 스캔.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/이창로_이진수2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기웅스터디/그리디/1700. 멀티캡 스케줄링.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/그리디/1700. 멀티캡 스케줄링.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘/D18/이창로_단순 2진 암호코드.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D19_start/이창로_단순 2진 암호코드.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +57,8 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.이진수_이창로">
-    <configuration name="1700. 멀티캡 스케줄링" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.이창로_이진수2">
+    <configuration name="2503. 숫자 야구" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/그리디" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/Brute Force" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/그리디/1700. 멀티캡 스케줄링.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/Brute Force/2503. 숫자 야구.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="이창로_암호코드 스캔" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,53 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#636" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D20_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#636/A.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#636" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#636/B.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="F" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#636" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#636/F.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D20_/이창로_암호코드 스캔.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,21 +142,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="이창로_이진수2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D20_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D20_/이창로_이진수2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="re11729. 하노이 탑 이동 순서" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/11. 재귀/re11729. 하노이 탑 이동 순서.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.1700. 멀티캡 스케줄링" />
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.A" />
-      <item itemvalue="Python.B" />
-      <item itemvalue="Python.F" />
       <item itemvalue="Python.이진수_이창로" />
+      <item itemvalue="Python.re11729. 하노이 탑 이동 순서" />
+      <item itemvalue="Python.2503. 숫자 야구" />
+      <item itemvalue="Python.이창로_암호코드 스캔" />
+      <item itemvalue="Python.이창로_이진수2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.이창로_이진수2" />
+        <item itemvalue="Python.이창로_암호코드 스캔" />
+        <item itemvalue="Python.2503. 숫자 야구" />
+        <item itemvalue="Python.re11729. 하노이 탑 이동 순서" />
         <item itemvalue="Python.이진수_이창로" />
-        <item itemvalue="Python.1700. 멀티캡 스케줄링" />
-        <item itemvalue="Python.B" />
-        <item itemvalue="Python.F" />
-        <item itemvalue="Python.A" />
       </list>
     </recent_temporary>
   </component>
@@ -236,28 +237,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
-    <state width="936" height="300" key="GridCell.Tab.0.bottom" timestamp="1588146897908">
+    <state width="936" height="300" key="GridCell.Tab.0.bottom" timestamp="1588325731291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588146897908" />
+    <state width="936" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.center" timestamp="1588146897908">
+    <state width="936" height="300" key="GridCell.Tab.0.center" timestamp="1588325731291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588146897908" />
+    <state width="936" height="300" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.left" timestamp="1588146897908">
+    <state width="936" height="300" key="GridCell.Tab.0.left" timestamp="1588325731291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588146897908" />
+    <state width="936" height="300" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.right" timestamp="1588146897908">
+    <state width="936" height="300" key="GridCell.Tab.0.right" timestamp="1588325731291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588146897908" />
+    <state width="936" height="300" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
