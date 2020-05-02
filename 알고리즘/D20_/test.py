@@ -107,9 +107,14 @@ for test_case in range(1, T + 1):
     key_holder = []
     for i in range(N):
         key = []
-        for j in range(-1, -M, -1):
+        flag = 0
+        for j in range(M):
             if arr[i][j] != '0':
                 key = arr[i][:j+1]
+                flag = 0
+            else:
+                flag += 1
+            if flag == 4:
                 break
         if key != []:
             for j in range(len(key)):

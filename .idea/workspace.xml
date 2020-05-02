@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기웅스터디/Brute Force/2503. 숫자 야구.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기웅스터디/비트마스킹/1327. 소트 게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/이창로_암호코드 스캔.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/이창로_이진수2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D20_/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D20_/이창로_암호코드 스캔.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D20_/이창로_암호코드 스캔.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.이창로_이진수2">
+  <component name="RunManager" selected="Python.이창로_암호코드 스캔">
     <configuration name="2503. 숫자 야구" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,8 +193,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.이창로_이진수2" />
         <item itemvalue="Python.이창로_암호코드 스캔" />
+        <item itemvalue="Python.이창로_이진수2" />
         <item itemvalue="Python.2503. 숫자 야구" />
         <item itemvalue="Python.re11729. 하노이 탑 이동 순서" />
         <item itemvalue="Python.이진수_이창로" />
@@ -237,28 +236,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
-    <state width="936" height="300" key="GridCell.Tab.0.bottom" timestamp="1588325731291">
+    <state width="936" height="301" key="GridCell.Tab.0.bottom" timestamp="1588341142754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
+    <state width="936" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588341142754" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.center" timestamp="1588325731291">
+    <state width="936" height="301" key="GridCell.Tab.0.center" timestamp="1588341142754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
+    <state width="936" height="301" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588341142754" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.left" timestamp="1588325731291">
+    <state width="936" height="301" key="GridCell.Tab.0.left" timestamp="1588341142754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
+    <state width="936" height="301" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588341142754" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="300" key="GridCell.Tab.0.right" timestamp="1588325731291">
+    <state width="936" height="301" key="GridCell.Tab.0.right" timestamp="1588341142754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="300" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588325731291" />
+    <state width="936" height="301" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588341142754" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585544442865" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
