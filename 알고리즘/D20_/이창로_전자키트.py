@@ -12,9 +12,6 @@ def dfs(a, cnt, s):
                 dfs(k, cnt+1, s+ arr[a][k])
                 visited[a] = False
 
-
-
-
 for test_case in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
