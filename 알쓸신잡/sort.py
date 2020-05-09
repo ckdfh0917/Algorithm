@@ -5,3 +5,4 @@ print(a)
 
 b = sorted(a, key=lambda x:(x[1], x[0]))
 print(b)
+
