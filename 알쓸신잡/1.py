@@ -31,10 +31,10 @@ def solution(numbers, hand):
             # 왼쪽 위상이 더 높으면
             # elif temp > right_pos:
             else:
-                if left_pos == 1 or left_pos == 4 or left_pos == 7 or left_pos == 10:
+                if left_pos == 1 or left_pos == 4 or left_pos == 7:
                     temp -= 1
                     k1 = abs(x - temp)
-                    print('k1',k1)
+                    print(k1)
                 else:
                     temp = left_pos
                     if abs(x - temp) == 3:
@@ -47,7 +47,7 @@ def solution(numbers, hand):
                         answer += 'L'
                         continue
                     print(temp, x)
-                if right_pos == 3 or right_pos == 6 or right_pos == 9 or right_pos == 12:
+                if right_pos == 3 or right_pos == 6 or right_pos == 9:
                     temp2 = right_pos - 1
                     k2 = abs(x - temp2)
                 else:
@@ -61,9 +61,8 @@ def solution(numbers, hand):
                     elif abs(x - temp2) == 0:
                         answer += 'R'
                         continue
-                print('L,R',left_pos, right_pos)
-                # print('k1,k2',k1,k2)
-                print('x',x)
+
+                print(x)
                 print(k1, k2)
                 if k1 == k2:
                     if hand == 'right':
@@ -81,5 +80,3 @@ def solution(numbers, hand):
             # elif temp < right_pos:
 
     return answer
-
-print(solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], 'left'))
