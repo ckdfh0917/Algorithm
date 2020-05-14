@@ -20,5 +20,3 @@ for i in range(0,N-8+1):
         for k in range(8):
             print('99', new_chess[k])
 
-
-            zzzz
