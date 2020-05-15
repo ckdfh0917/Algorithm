@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/기웅스터디/Brute Force/1018. 체스판 다시 칠하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/그리디/2212. 센서.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D22/이창로_전기버스2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘/D22/이창로_최소 생산 비용.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘/D22/이창로_이진 탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D22/이창로_이진 탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘/D22/이창로_퀵 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D22/이창로_퀵 정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기웅스터디/Brute Force/체스판 다시 칠하기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +60,8 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D03_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.이창로_퀵 정렬">
-    <configuration name="체스판 다시 칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.이창로_최소 생산 비용">
+    <configuration name="1018. 체스판 다시 칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/Brute Force/체스판 다시 칠하기.py" />
+      <option name="SCRIPT_NAME" value="D:\SSAFY\SW-Expert-Academy\기웅스터디\Brute Force\1018. 체스판 다시 칠하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,28 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알쓸신잡" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\SSAFY\SW-Expert-Academy\알쓸신잡\kak\4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="이창로_이진 탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="이창로_최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D22/이창로_이진 탐색.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D22/이창로_최소 생산 비용.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,20 +187,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="이창로_이진 탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D22" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D22/이창로_이진 탐색.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이창로_전기버스2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D22" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D22/이창로_전기버스2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.체스판 다시 칠하기" />
       <item itemvalue="Python.2503. 숫자 야구" />
-      <item itemvalue="Python.이창로_병합 정렬" />
       <item itemvalue="Python.이창로_이진 탐색" />
-      <item itemvalue="Python.이창로_퀵 정렬" />
+      <item itemvalue="Python.1018. 체스판 다시 칠하기" />
+      <item itemvalue="Python.이창로_전기버스2" />
+      <item itemvalue="Python.이창로_최소 생산 비용" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.이창로_퀵 정렬" />
+        <item itemvalue="Python.이창로_최소 생산 비용" />
+        <item itemvalue="Python.이창로_전기버스2" />
+        <item itemvalue="Python.1018. 체스판 다시 칠하기" />
         <item itemvalue="Python.이창로_이진 탐색" />
-        <item itemvalue="Python.이창로_병합 정렬" />
-        <item itemvalue="Python.체스판 다시 칠하기" />
         <item itemvalue="Python.2503. 숫자 야구" />
       </list>
     </recent_temporary>
@@ -259,28 +283,28 @@
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589002656439" />
-    <state width="950" height="304" key="GridCell.Tab.0.bottom" timestamp="1589435388488">
+    <state width="936" height="303" key="GridCell.Tab.0.bottom" timestamp="1589522146386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589435388488" />
+    <state width="936" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589522146386" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="950" height="304" key="GridCell.Tab.0.center" timestamp="1589435388488">
+    <state width="936" height="303" key="GridCell.Tab.0.center" timestamp="1589522146385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589435388488" />
+    <state width="936" height="303" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589522146385" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="950" height="304" key="GridCell.Tab.0.left" timestamp="1589435388488">
+    <state width="936" height="303" key="GridCell.Tab.0.left" timestamp="1589522146385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589435388488" />
+    <state width="936" height="303" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589522146385" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="950" height="304" key="GridCell.Tab.0.right" timestamp="1589435388488">
+    <state width="936" height="303" key="GridCell.Tab.0.right" timestamp="1589522146385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="950" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589435388488" />
+    <state width="936" height="303" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589522146385" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
