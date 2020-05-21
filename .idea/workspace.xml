@@ -37,10 +37,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SW-Expert-Academy/D3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +56,7 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D03_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2212. 센서">
+  <component name="RunManager" selected="Python.2217. 로프">
     <configuration name="1018. 체스판 다시 칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2503. 숫자 야구" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2217. 로프" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/Brute Force" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/그리디" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/Brute Force/2503. 숫자 야구.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/그리디/2217. 로프.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,27 +133,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/2. if문/2884. 알람 시계.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="이창로_병합 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D22" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D22/이창로_병합 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,20 +206,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.이창로_병합 정렬" />
-      <item itemvalue="Python.2503. 숫자 야구" />
+      <item itemvalue="Python.이창로_이진 탐색" />
       <item itemvalue="Python.1018. 체스판 다시 칠하기" />
       <item itemvalue="Python.이창로_전기버스2" />
       <item itemvalue="Python.이창로_최소 생산 비용" />
       <item itemvalue="Python.2212. 센서" />
+      <item itemvalue="Python.2217. 로프" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2217. 로프" />
         <item itemvalue="Python.2212. 센서" />
         <item itemvalue="Python.이창로_최소 생산 비용" />
         <item itemvalue="Python.이창로_전기버스2" />
         <item itemvalue="Python.1018. 체스판 다시 칠하기" />
-        <item itemvalue="Python.2503. 숫자 야구" />
       </list>
     </recent_temporary>
   </component>
@@ -280,28 +259,32 @@
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589002656439" />
-    <state width="936" height="303" key="GridCell.Tab.0.bottom" timestamp="1589685130777">
+    <state x="720" y="236" key="FileChooserDialogImpl" timestamp="1590022254058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589685130777" />
+    <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022254058" />
+    <state width="468" height="303" key="GridCell.Tab.0.bottom" timestamp="1590022300150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="468" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022300150" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="303" key="GridCell.Tab.0.center" timestamp="1589685130777">
+    <state width="468" height="303" key="GridCell.Tab.0.center" timestamp="1590022300150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="303" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589685130777" />
+    <state width="468" height="303" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022300150" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="303" key="GridCell.Tab.0.left" timestamp="1589685130776">
+    <state width="468" height="303" key="GridCell.Tab.0.left" timestamp="1590022300150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="303" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589685130776" />
+    <state width="468" height="303" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022300150" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="303" key="GridCell.Tab.0.right" timestamp="1589685130777">
+    <state width="468" height="303" key="GridCell.Tab.0.right" timestamp="1590022300150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="303" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589685130777" />
+    <state width="468" height="303" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022300150" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1584004828329">
@@ -328,10 +311,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="312" y="234" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584432377159" />
-    <state x="442" y="123" key="SettingsEditor" timestamp="1585182884459">
+    <state x="442" y="123" key="SettingsEditor" timestamp="1590022276452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="442" y="123" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585182884459" />
+    <state x="442" y="123" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022276452" />
     <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582346699137" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589435004315">
       <screen x="0" y="0" width="1920" height="1040" />
