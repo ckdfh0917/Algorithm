@@ -1,29 +1,5 @@
 T = int(input())
 
-def bfs(k, v, cnt):
-    global minV
-    q = []
-    for i in range(k+1, V+1):
-        if v[i] == 0 and arr[k][i] != 0:
-            q.append([k,i])
-            v[i] = 1
-    while q:
-        a, b = q.pop(0)
-        cnt += arr[a][b]
-        print(a,b, cnt)
-        if cnt >= minV:
-            return
-
-        for j in range(V + 1):
-            if v[j] == 0 and arr[b][j] != 0:
-                q.append([b, j])
-                v[j] = 1
-    print(k, v, cnt)
-    if 0 not in v:
-        minV = min(minV, cnt)
-    return
-
-
 for test_case in range(1, T+1):
     V, E = map(int, input().split())
 
@@ -33,12 +9,37 @@ for test_case in range(1, T+1):
         arr[n[0]][n[1]] = n[2]
         arr[n[1]][n[0]] = n[2]
 
-    for i in range(V+1):
-        print(arr[i])
+    # for i in range(V+1):
+    #     print(arr[i])
+    # print('aaaaaaaaaaaaaaa')
+    INF = float('inf')
+    mst = [False] * (V+1)
+    key = [INF] * (V+1)
+    p = [-1] * (V+1)
 
-    minV = 1234567891
-    for i in range(V+1):
-        visited = [0] * (V+1)
-        visited[i] = 1
-        bfs(i,visited, 0)
-    print(minV)
+    cnt = 0
+    result = 0
+    key[0] = 0
+    while cnt < V+1:
+        minV = INF
+        u = -1
+        for i in range(V+1):
+            if not mst[i] and key[i] < minV:
+                minV = key[i]
+                u = i
+        mst[u] = True
+        result += minV
+        cnt += 1
+        # print('a', mst)
+        # print('b', result)
+        # print('d', key)
+        for w in range(V+1):
+            if arr[u][w] > 0 and not mst[w] and key[w] > arr[u][w]:
+                key[w] = arr[u][w]
+                p[w] = u
+    #     print('c', key)
+    #     print('zzzzzzzzzzz')
+    # print(key)
+    # print(p)
+    print('#{} {}'.format(test_case, result))
+    # print('=========================')
