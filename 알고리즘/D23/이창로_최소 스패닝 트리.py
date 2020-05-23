@@ -8,15 +8,16 @@ def find_set(x):
     if x == p[x]:
         return x
     else:
-        return find_set(p[x])
+        p[x] = find_set(p[x])
+        return p[x]
 
 def union(x, y):
     py = p[find_set(y)]
     px = p[find_set(x)]
-    if px < py:
-        p[find_set(y)] = px
+    if px > py:
+        p[py] = px
     else:
-        pass
+        p[px] = py
 
 for test_case in range(1, T+1):
     V, E = map(int, input().split())
@@ -26,8 +27,7 @@ for test_case in range(1, T+1):
         adj[s].append([e, n])
         adj[e].append([s, n])
 
-    for i in range(1, V):
-        print(adj[i])
+    print(adj)
 
     INF = float('inf')
     key = [INF] * V
@@ -35,6 +35,7 @@ for test_case in range(1, T+1):
     pq = []
     key[0] = 0
     p = [i for i in range(V+1)]
+
     heapq.heappush(pq, (0,0))
 
     print(p)
@@ -44,4 +45,4 @@ for test_case in range(1, T+1):
         for dest, wt in adj[node]:
             if not mst[dest] and key[dest] > wt:
                 key[dest] = wt
-                heapq.heappush(pq, (key[dest], dest]))
+                heapq.heappush(pq, (key[dest], dest))
