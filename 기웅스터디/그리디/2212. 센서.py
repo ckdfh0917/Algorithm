@@ -1,41 +1,70 @@
 N = int(input())
 K = int(input())
+lst = list(map(int, input().split()))
 
-sensor = sorted(list(map(int, input().split())))
-
-print(sensor)
-visited = [0] * (max(sensor) + 1)
-visited[min(sensor)] = 1
+lst.sort()
+lst = list(set(lst))
+res = []
+minV = 1234567891
+visited = [0] * len(lst)
 visited[-1] = 1
-
-def find(k, v):
-    global ans
-    if k == 0:
-        print('a', v)
-        arr = v[:]
+def find(v, idx, ans):
+    global res, minV
+    print(v, idx, ans)
+    if v.count(1) == K:
+        # print('v', v)
         cnt = 0
-        s = 0
-        for i in range(min(sensor), len(arr)):
-            if arr[i] == 1:
-                cnt += 1
-            if cnt % 2 == 1 and s == 0:
-                s = i
-                print('s', s)
-            elif cnt % 2 == 0 and cnt != 0:
-                e = i
-                print(s, e)
-                for j in range(s, e+1):
-                    arr[j] = 1
-                cnt = 0
-                s = 0
-        print('b', arr)
+        idx = 0
+        for i in range(len(v)):
+            if cnt == K-1:
+                res.append([lst[i], lst[-1]])
+                break
+            if v[i] == 1:
+                if not res:
+                    res.append([lst[0], lst[i]])
+                    cnt += 1
+                else:
+                    res.append([lst[idx+1], lst[i]])
+                    cnt += 1
+                idx = i
+
+        if len(res) == K:
+            temp = 0
+            flag = False
+            for i in range(K):
+                s, e = res[i]
+                temp += e - s
+                # if s == e:
+                #     flag = True
+            if not flag:
+                minV = min(minV, temp)
+                print(res)
+                print(ans, temp)
+                print(minV)
+                print()
+        res = []
+        return
+    elif ans > minV:
+        print('back')
         return
     else:
-        for i in range(min(sensor)+1, max(sensor)):
-            if v[i] == 0 and i in sensor:
-                v[i] = 1
-                find(k-1, v)
-                v[i] = 0
-
-ans = 1234567891
-find(K*2 - 2, visited)
+        index = 0
+        for i in range(idx, len(v)):
+            # print('i', i)
+            if visited[i] == 0:
+                visited[i] = 1
+                print(visited)
+                if visited.count(1) == 1:
+                    # print('ans0', lst[i] - lst[0])
+                    find(v, i + 1, ans + lst[i] - lst[0])
+                else:
+                    # print('ans1', lst[i] - lst[index+1])
+                    if visited.count(1) == K:
+                        find(v, i + 1, ans + lst[i] - lst[index+1] + lst[-1] - lst[i+1] )
+                    else:
+                        find(v, i + 1, ans + lst[i] - lst[index+1])
+                visited[i] = 0
+                index = i
+find(visited, 0, 0)
+# print('==============')
+print(minV)
