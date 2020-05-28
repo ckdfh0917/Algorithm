@@ -4,6 +4,7 @@
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/기웅스터디/그리디/2212. 센서.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/그리디/2212. 센서.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기웅스터디/그리디/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/그리디/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,27 +71,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/리스트,배열,연결리스트/1406. 에디터.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1931. 회의실배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/그리디" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/그리디/1931. 회의실배정.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="이창로_최소 이동 거리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="이창로_연산" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,7 +196,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D23/이창로_최소 이동 거리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D23/이창로_연산.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,11 +213,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘/D23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/그리디" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘/D23/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/그리디/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,20 +228,20 @@
     </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.이창로_최소 이동 거리" />
+      <item itemvalue="Python.이창로_최소 스패닝 트리" />
       <item itemvalue="Python.1406. 에디터" />
-      <item itemvalue="Python.1931. 회의실배정" />
       <item itemvalue="Python.2212. 센서" />
       <item itemvalue="Python.3986. 좋은 단어" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.이창로_연산" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.2212. 센서" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.이창로_연산" />
         <item itemvalue="Python.1406. 에디터" />
         <item itemvalue="Python.3986. 좋은 단어" />
-        <item itemvalue="Python.1931. 회의실배정" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -305,28 +285,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590022254058" />
-    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1590587483472">
+    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1590627874365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590587483472" />
+    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590627874365" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1590587483471">
+    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1590627874365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590587483471" />
+    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590627874365" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1590587483471">
+    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1590627874365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590587483471" />
+    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590627874365" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1590587483472">
+    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1590627874365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590587483472" />
+    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590627874365" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1590164335415">

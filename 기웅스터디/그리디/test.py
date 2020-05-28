@@ -1,49 +1,66 @@
-import sys
-sys.stdin = open('input.txt', 'r')
-
 N = int(input())
+K = int(input())
+lst = list(map(int, input().split()))
 
-lst = []
-for _ in range(N):
-    temp = list(map(int, input().split()))
-    lst.append(temp)
+lst.sort()
+lst = list(set(lst))
+res = []
+minV = 1234567891
+visited = [0] * len(lst)
+visited[-1] = 1
+def find(v, idx, ans):
+    global res, minV
+    # print(v, idx, ans)
+    if v.count(1) == K:
+        # print('v', v)
+        cnt = 0
+        idx = 0
+        for i in range(len(v)):
+            if cnt == K-1:
+                res.append([lst[i], lst[-1]])
+                break
+            if v[i] == 1:
+                if not res:
+                    res.append([lst[0], lst[i]])
+                    cnt += 1
+                else:
+                    res.append([lst[idx+1], lst[i]])
+                    cnt += 1
+                idx = i
 
-new_lst = sorted(lst, key = lambda x : (x[1], x[0]))
-# print('l',lst)
-# print('n',new_lst)
-
-#
-cls = []
-visited = [0] * N
-cnt = 0
-for j in range(N):
-    temp = []
-    k = 0
-    flag = 0
-    for i in range(j, N):
-        # print(i, end=' ')
-
-        if not temp and visited[i] == 0:
-            temp.append(new_lst[i])
-            visited[i] = 1
-            k = new_lst[i][1]
-        else:
-            if visited[i] == 0 and temp[-1][1] <= new_lst[i][0]:   # 이미 정해진 시간표에 끝나는 시간과 새로 정할 시간표에 시작하는 시간 비교
-                temp.append(new_lst[i])
+        if len(res) == K:
+            temp = 0
+            flag = False
+            for i in range(K):
+                s, e = res[i]
+                temp += e - s
+                # if s == e:
+                #     flag = True
+            if not flag:
+                minV = min(minV, temp)
+                print(res)
+                # print(ans, temp)
+                print(minV)
+                print()
+        res = []
+        return
+    elif ans > minV:
+        return
+    else:
+        index = 0
+        for i in range(idx, len(v)):
+            # print('i', i)
+            if visited[i] == 0:
                 visited[i] = 1
-                k = new_lst[i][1]
-
-        # print(visited)
-        # print(temp)
-        if all(visited):
-            flag = 1
-            break
-    # cls.append(temp)
-    cnt += 1
-    if flag == 1:
-        break
-
-
-# print(cls)
-# print(len(cls), cnt)
-print(cnt)
+                print(visited)
+                if ans == 0:
+                    # print('ans0', lst[i] - lst[0])
+                    find(v, i + 1, ans + lst[i] - lst[0])
+                else:
+                    # print('ans1', lst[i] - lst[index+1])
+                    find(v, i + 1, ans + lst[i] - lst[index+1])
+                visited[i] = 0
+                index = i
+find(visited, 0, 0)
+# print('==============')
+print(minV)
