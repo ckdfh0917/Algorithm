@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/알고리즘/기타/사다리 조작.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D3/5601. [Professional] 쥬스 나누기.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/5601. [Professional] 쥬스 나누기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D3/7675. 통역사 성경이.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D3/7675. 통역사 성경이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/1011. Fly me to the Alpha Centauri.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/1011. Fly me to the Alpha Centauri.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/1012. 유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/1012. 유기농 배추.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/1244. 스위치 켜고 끄기.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/1244. 스위치 켜고 끄기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/4110. 당구대.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/4110. 당구대.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/9020. 골드바흐의 추측.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/9020. 골드바흐의 추측.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/im대비_스위치끄고켜기_이창로.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/im대비_스위치끄고켜기_이창로.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/미세먼지 안녕!.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/사다리 조작.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/미세먼지 안녕!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/조합.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/조합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/주사위 굴리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/주사위 굴리기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/주사위 굴리기sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/주사위 굴리기sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/캐슬 디펜스.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/캐슬 디펜스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1/캐슬 디펜스sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/기타/캐슬 디펜스sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘/D01_배열1/01_practice/buble.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘/D01_배열1/01_practice/buble.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +61,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SSAFY\SW-Expert-Academy\SW-Expert-Academy\D3" />
-      <recent name="D:\SSAFY\SW-Expert-Academy\기웅스터디\DFS" />
-      <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\기타" />
       <recent name="D:\SSAFY\SW-Expert-Academy\알쓸신잡\kak" />
       <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D20_" />
       <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D19_start" />
       <recent name="D:\SSAFY\SW-Expert-Academy\기웅스터디\그리디" />
-      <recent name="D:\SSAFY\SW-Expert-Academy\알고리즘\D03_List" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSAFY\SW-Expert-Academy\SW-Expert-Academy\D3" />
+      <recent name="D:\SSAFY\SW-Expert-Academy\기웅스터디\DFS" />
+      <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.2212. 센서">
@@ -283,28 +302,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628100769" />
-    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1590628175962">
+    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1590629713421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628175962" />
+    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590629713421" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1590628175962">
+    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1590629713421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628175962" />
+    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590629713421" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1590628175962">
+    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1590629713421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628175962" />
+    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590629713421" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1590628175962">
+    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1590629713421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628175962" />
+    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590629713421" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1590164335415">
