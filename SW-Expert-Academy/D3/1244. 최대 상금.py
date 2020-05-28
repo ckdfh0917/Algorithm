@@ -1,29 +1,24 @@
-q = int(input())
+def swap(n, cnt):
+    num = list(str(n))
+    for i in range(len(num) - 1):
+        for j in range(i + 1, len(num)):
+            num[i], num[j] = num[j], num[i]
+            temp = int(''.join(num))
 
-def cal(cnt, now):
-    global ans
-    if cnt == k:
-        a = int(''.join(map(str, s)))
-        ans = max(ans, a)
-        return
+            if temp not in lst[cnt]:
+                lst[cnt].append(temp)
 
-    for i in range(now, len(s)):
-        for j in range(i, len(s)):
-            if i == j:
-                continue
-            if s[i] <= s[j]:
-                s[i], s[j] = s[j], s[i]
-                cal(cnt+1, i)
-                s[i], s[j] = s[j], s[i]
+            num[i], num[j] = num[j], num[i]
 
 
-for test_case in range(1,q+1):
-    z = input().split()
-    n = z[0]
-    k = int(z[1])
+for tc in range(int(input())):
+    N, K = map(int, input().split())
+    lst = {i: [] for i in range(K + 1)}
 
-    n = list(map(str, n))
-    ans = 0
-    s = n[:]
-    cal(0, 0)
-    print('#{} {}' .format(test_case, ans))
+    lst[0].append(N)
+    for i in range(1, K + 1):
+        for n in (lst[i - 1]):
+            swap(n, i)
+    # print(lst)
+    lst[K].sort(reverse=True)
+    print('#{} {}'.format(tc + 1, lst[K][0]))
