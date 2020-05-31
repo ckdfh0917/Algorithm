@@ -1,7 +1,11 @@
+import sys, time
+input = sys.stdin.readline
+start = time.time()
 T = int(input())
 
 for _ in range(T):
     n, m, k = map(int, input().split())
+    # n, m, k = map(int, sys.stdin.readline().split())
     result = 0
     card = n // k
 
@@ -21,3 +25,5 @@ for _ in range(T):
                     break
         result = player[0] - player[1]
     print(result)
+
+print('t: ', time.time() - start)
