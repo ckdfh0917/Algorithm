@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SW-Expert-Academy/D5/1248. 공통조상.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SW-Expert-Academy/D5/1248. 공통조상.py" beforeDir="false" afterPath="$PROJECT_DIR$/SW-Expert-Academy/D5/1248. 공통조상.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/down/pycham" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -184,12 +184,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.1248. 공통조상" />
       <item itemvalue="Python.2884. 알람 시계" />
       <item itemvalue="Python.A" />
       <item itemvalue="Python.B" />
       <item itemvalue="Python.C" />
       <item itemvalue="Python.D" />
-      <item itemvalue="Python.1248. 공통조상" />
     </list>
     <recent_temporary>
       <list>
@@ -215,14 +215,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="196" y="136" key="#11654._아스키_코드" timestamp="1582207293407">
+    <state x="72" y="182" key="#Notifications" timestamp="1590931711216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="196" y="136" key="#11654._아스키_코드/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582207293406" />
-    <state x="72" y="182" key="#Notifications" timestamp="1590669854228">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="72" y="182" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590669854228" />
+    <state x="72" y="182" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590931711216" />
     <state x="226" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588766837388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,41 +228,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="323" y="413" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411064804" />
-    <state x="196" y="136" key="#구구단" timestamp="1582114342020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="196" y="136" key="#구구단/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582114342020" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589002656439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589002656439" />
-    <state x="720" y="236" key="FileChooserDialogImpl" timestamp="1590628100769">
+    <state x="720" y="236" key="FileChooserDialogImpl" timestamp="1590724878749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590628100769" />
-    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1590718181364">
+    <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590724878749" />
+    <state width="950" height="257" key="GridCell.Tab.0.bottom" timestamp="1590735846217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590718181364" />
+    <state width="950" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590735846217" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1590718181363">
+    <state width="950" height="257" key="GridCell.Tab.0.center" timestamp="1590735846217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590718181363" />
+    <state width="950" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590735846217" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1590718181363">
+    <state width="950" height="257" key="GridCell.Tab.0.left" timestamp="1590735846217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590718181363" />
+    <state width="950" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590735846217" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
-    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1590718181364">
+    <state width="950" height="257" key="GridCell.Tab.0.right" timestamp="1590735846217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590718181364" />
+    <state width="950" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590735846217" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585240924900" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1590164335415">
