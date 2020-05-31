@@ -1,10 +1,15 @@
 T = int(input())
 
 def preorder(node):
+    global cnt
     if node != 0:
-        print(node, end=' ')
-        preorder(tree[node][0])
-        preorder(tree[node][1])
+        # print(node, end=' ')
+        if tree[node][0] != 0:
+            cnt += 1
+            preorder(tree[node][0])
+        if tree[node][1] != 0:
+            cnt += 1
+            preorder(tree[node][1])
 
 def inorder(node):
     if node != 0:
@@ -17,6 +22,20 @@ def postorder(node):
         postorder(tree[node][0])
         postorder(tree[node][1])
         print(node, end=' ')
+
+def preparents(node):
+    if node != 0:
+        p.append(tree[node][2])
+        preparents(tree[node][2])
+
+def checkparent(node):
+    global res
+    if node != 0:
+        if tree[node][2] not in p:
+            checkparent(tree[node][2])
+        else:
+            res = tree[node][2]
+            return
 
 for test_case in range(1, T+1):
     V, E, s1, s2 = map(int, input().split())
@@ -32,7 +51,7 @@ for test_case in range(1, T+1):
         else:
             tree[n1][1] = n2
         tree[n2][2] = n1
-    print(tree)
+    # print(tree)
 
     # print('전위순회')
     # preorder(1)
@@ -42,4 +61,11 @@ for test_case in range(1, T+1):
     # print()
     # print('후위순회')
     # postorder(1)
-    
+
+    p = []
+    res = 0
+    cnt = 1
+    preparents(s1)
+    checkparent(s2)
+    preorder(res)
+    print('#{} {} {}' .format(test_case, res, cnt))
