@@ -6,3 +6,6 @@ for i in range(P):
     gate.append(int(input()))
 
 print(gate)
+
+
+
