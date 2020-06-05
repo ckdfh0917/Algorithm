@@ -1,3 +1,4 @@
+import heapq
 T = int(input())
 
 def cal(x1, y1, x2, y2, E):
@@ -26,9 +27,26 @@ for test_case in range(1, T+1):
     Y = list(map(int, input().split()))
     E = float(input())
 
+    distance = []
+    for i in range(N):
+        for j in range(i+1, N):
+            heapq.heappush(distance, (cal(X[i], Y[i], X[j], Y[j], E), i, j))
+
+    # print(distance)
     p = [0] * (N+1)
     for i in range(N+1):
         make_set(i)
 
-    for i in range(1, N+1):
-        if p[i] == i:
+    cnt = 0
+    ans = 0
+    while cnt < N-1:
+        d, a, b = heapq.heappop(distance)
+        if find_set(a) == find_set(b):
+            continue
+        else:
+            union(a, b)
+            ans += d
+            cnt += 1
+
+    res = round(ans)
+    print('#{} {}' .format(test_case, res))
