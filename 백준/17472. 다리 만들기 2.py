@@ -9,6 +9,7 @@ land = [list(map(int, input().split())) for _ in range(N)]
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
+# 각 섬을 숫자로 다시 표기
 def marking(x, y ,cnt):
     visited[x][y] = 1
     land[x][y] = cnt
@@ -18,54 +19,47 @@ def marking(x, y ,cnt):
                 marking(x+dx[i], y+dy[i], cnt)
     return
 
+# 가로 길이를 카운트
 def row_cnt():
     for i in range(N):
         d = 0
         temp = 0
         for j in range(M):
-            # print(i, j, end=' ')
             if temp == 0 and land[i][j] == 0:
-                # print('a')
                 continue
             elif temp == 0 and land[i][j] != 0:
                 temp = land[i][j]
-                # print('b')
             elif temp != 0 and land[i][j] == 0:
                 d += 1
-                # print('c', d)
             elif land[i][j] != temp:
                 heapq.heappush(pq, (d, land[i][j], temp))
                 temp = land[i][j]
-                # print('d', pq)
                 d = 0
             elif land[i][j] == temp:
-                # print('e')
+                d = 0
                 continue
 
+# 세로 길이를 카운트
 def col_cnt():
     for j in range(M):
         d = 0
         temp = 0
         for i in range(N):
-            # print(i, j, end=' ')
             if temp == 0 and land[i][j] == 0:
-                # print('a')
                 continue
             elif temp == 0 and land[i][j] != 0:
                 temp = land[i][j]
-                # print('b')
             elif temp != 0 and land[i][j] == 0:
                 d += 1
-                # print('c', d)
             elif land[i][j] != temp:
                 heapq.heappush(pq, (d, land[i][j], temp))
                 temp = land[i][j]
-                # print('d', pq)
                 d = 0
             elif land[i][j] == temp:
-                # print('e')
+                d = 0
                 continue
 
+# 유니온-파인드
 def make_set(x):
     pi[x] = x
 
@@ -91,33 +85,23 @@ for i in range(N):
                 cnt += 1
                 marking(i, j, cnt)
 
-# for i in range(N):
-#     print(land[i])
-
 pq = []
 
-row_cnt()
 col_cnt()
-
-# print(pq)
-
+row_cnt()
 
 pi = [0] * (cnt+1)
 
 for i in range(1, cnt):
     make_set(i)
 
-# print(pq)
 n = 0
 ans = 0
 while n < cnt-1:
-    # print(pq)
     if not pq:
         ans = -1
         break
     d, a, b = heapq.heappop(pq)
-    # print(d, a, b)
-    # print()
     if d < 2:
         continue
 
