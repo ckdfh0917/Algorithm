@@ -33,6 +33,3 @@ for i in range(N):
 pq = [0] * (cnt+1)
 print(pq)
 
-
-
-
