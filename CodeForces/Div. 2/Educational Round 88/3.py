@@ -1,6 +1,7 @@
 # you can write to stdout for debugging purposes, e.g.
 # print("this is a debug message")
 import heapq
+import numpy as np
 
 def solution(A):
     # write your code in Python 3.6
@@ -16,5 +17,3 @@ def solution(A):
         heapq.heappush(p, temp)
 
     return cnt
-
-solution(A)

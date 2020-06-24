@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 2/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 2/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/Div. 2/Educational Round 88/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기웅스터디/트리/11725. 트리의 부모 찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기웅스터디/트리/1991. 트리 순회.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/알쓸신잡/재귀함수 깊이대비.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기웅스터디/BFS/6593. 상암 빌딩.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/Div. 2/Educational Round 88/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForces/Div. 2/Educational Round 88/3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3">
+  <component name="RunManager" selected="Python.6593. 상암 빌딩">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,27 +92,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/트리/11725. 트리의 부모 찾기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1991. 트리 순회" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/트리" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/트리/1991. 트리 순회.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,21 +163,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6593. 상암 빌딩" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/BFS/6593. 상암 빌딩.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.1991. 트리 순회" />
       <item itemvalue="Python.11725. 트리의 부모 찾기" />
       <item itemvalue="Python.1" />
       <item itemvalue="Python.2" />
       <item itemvalue="Python.3" />
+      <item itemvalue="Python.6593. 상암 빌딩" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6593. 상암 빌딩" />
         <item itemvalue="Python.3" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.1" />
         <item itemvalue="Python.11725. 트리의 부모 찾기" />
-        <item itemvalue="Python.1991. 트리 순회" />
       </list>
     </recent_temporary>
   </component>
@@ -228,41 +224,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="226" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588766837388" />
-    <state x="323" y="413" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1583411064804">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="323" y="413" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411064804" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589002656439">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="226" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583764652226" />
     <state x="2146" y="378" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589002656439" />
-    <state x="720" y="236" key="FileChooserDialogImpl" timestamp="1590724878749">
+    <state x="720" y="236" key="FileChooserDialogImpl" timestamp="1592483664441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590724878749" />
-    <state width="936" height="343" key="GridCell.Tab.0.bottom" timestamp="1591963425184">
+    <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592483664441" />
+    <state width="1004" height="337" key="GridCell.Tab.0.bottom" timestamp="1593010253973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591722307710" />
+    <state width="1004" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593010253973" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="343" key="GridCell.Tab.0.center" timestamp="1591963425184">
+    <state width="1004" height="337" key="GridCell.Tab.0.center" timestamp="1593010253973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="346" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591722307710" />
+    <state width="1004" height="337" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593010253973" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="343" key="GridCell.Tab.0.left" timestamp="1591963425184">
+    <state width="1004" height="337" key="GridCell.Tab.0.left" timestamp="1593010253973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="346" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591722307710" />
+    <state width="1004" height="337" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593010253973" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="343" key="GridCell.Tab.0.right" timestamp="1591963425184">
+    <state width="1004" height="337" key="GridCell.Tab.0.right" timestamp="1593010253973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="346" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591722307710" />
+    <state width="1004" height="337" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593010253973" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
     <state width="936" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1590164335415">
