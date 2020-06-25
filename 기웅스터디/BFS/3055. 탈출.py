@@ -75,4 +75,5 @@ for i in range(R):
             w_visited[i][j] = 1
             water_point.append([i, j])
 
+
 bfs(start_point, end_point, water_point)
