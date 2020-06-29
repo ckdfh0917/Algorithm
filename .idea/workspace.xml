@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4606e4-754a-48a5-8550-4d7418686858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기웅스터디/DP/11501. 주식.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기웅스터디/DP/11055. 가장 큰 증가 부분 수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/DP/11055. 가장 큰 증가 부분 수열.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,8 @@
       <recent name="D:\SSAFY\SW-Expert-Academy\백준\1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11501. 주식">
-    <configuration name="11501. 주식" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.11055. 가장 큰 증가 부분 수열">
+    <configuration name="11055. 가장 큰 증가 부분 수열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,49 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/11501. 주식.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16500. 문자열 판별" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/DP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/16500. 문자열 판별.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1759. 암호 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/백트래킹" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/백트래킹/1759. 암호 만들기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/DP/11055. 가장 큰 증가 부분 수열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3055. 탈출" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/BFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#653" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/BFS/3055. 탈출.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#653/A.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5427. 불" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="B" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,11 +128,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/BFS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#653" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/BFS/5427. 불.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#653/B.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="C" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#653" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#653/C.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Div. 3/#653" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Div. 3/#653/D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,19 +185,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.2884. 알람 시계" />
-      <item itemvalue="Python.5427. 불" />
-      <item itemvalue="Python.3055. 탈출" />
-      <item itemvalue="Python.1759. 암호 만들기" />
-      <item itemvalue="Python.16500. 문자열 판별" />
-      <item itemvalue="Python.11501. 주식" />
+      <item itemvalue="Python.11055. 가장 큰 증가 부분 수열" />
+      <item itemvalue="Python.A" />
+      <item itemvalue="Python.B" />
+      <item itemvalue="Python.C" />
+      <item itemvalue="Python.D" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11501. 주식" />
-        <item itemvalue="Python.16500. 문자열 판별" />
-        <item itemvalue="Python.1759. 암호 만들기" />
-        <item itemvalue="Python.3055. 탈출" />
-        <item itemvalue="Python.5427. 불" />
+        <item itemvalue="Python.11055. 가장 큰 증가 부분 수열" />
+        <item itemvalue="Python.D" />
+        <item itemvalue="Python.B" />
+        <item itemvalue="Python.C" />
+        <item itemvalue="Python.A" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +215,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="196" y="148" key="#B" timestamp="1593356897764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="196" y="148" key="#B/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593356897764" />
     <state x="72" y="182" key="#Notifications" timestamp="1590931711216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,30 +235,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="236" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592483664441" />
-    <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1593331808680">
+    <state width="936" height="279" key="GridCell.Tab.0.bottom" timestamp="1593406726710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593331808680" />
+    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593406726710" />
     <state width="936" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
-    <state width="936" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="279" key="GridCell.Tab.0.center" timestamp="1593331808680">
+    <state width="936" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593340149251" />
+    <state width="936" height="279" key="GridCell.Tab.0.center" timestamp="1593406726710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593331808680" />
+    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593406726710" />
     <state width="936" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
-    <state width="936" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="279" key="GridCell.Tab.0.left" timestamp="1593331808679">
+    <state width="936" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593340149251" />
+    <state width="936" height="279" key="GridCell.Tab.0.left" timestamp="1593406726710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593331808679" />
+    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593406726710" />
     <state width="936" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
-    <state width="936" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
-    <state width="936" height="279" key="GridCell.Tab.0.right" timestamp="1593331808680">
+    <state width="936" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593340149251" />
+    <state width="936" height="279" key="GridCell.Tab.0.right" timestamp="1593406726710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593331808680" />
+    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593406726710" />
     <state width="936" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589041064152" />
-    <state width="936" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591963425184" />
+    <state width="936" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593340149251" />
     <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1590164335415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
