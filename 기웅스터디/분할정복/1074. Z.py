@@ -5,7 +5,7 @@ n = 2 ** N
 
 def f(x, y, a):
     global result
-    print(x, y, a)
+    # print(x, y, a)
     if x == r and y == c:
         print(result)
         return
