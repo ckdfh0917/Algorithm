@@ -8,6 +8,11 @@ def gcd(a, b):
         res = gcd(b, a%b)
     return res
 
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
 def lcd(a,b):
     return a * b // gcd(a,b)
 
