@@ -6,7 +6,7 @@ for _ in range(N):
     temp = list(map(int, input().split()))
     lst.append(temp)
 
-new_lst = sorted(lst, key = lambda x : (x[1], x[0]))
+new_lst = sorted(lst, key=lambda x : (x[1], x[0]))
 # print('l',lst)
 # print('n',new_lst)
 
