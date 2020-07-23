@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기웅스터디/그리디/15748. Rest Stops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1149. RGB거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/9461. 파도반 수열.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,41 +16,51 @@
     <session id="-1314614571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3488" />
+          <entry key="py" value="3804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3488" />
+          <entry key="Python" value="3804" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/기웅스터디/그리디/15748. Rest Stops.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/9461. 파도반 수열.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="76">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/1149. RGB거리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -78,13 +89,15 @@
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/2748. 피보나치 수 2.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/1003. 피보나치 함수.py" />
         <option value="$PROJECT_DIR$/기웅스터디/그리디/15748. Rest Stops.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/9461. 파도반 수열.py" />
+        <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/1149. RGB거리.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,7 +117,13 @@
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+              <item name="단계별로 풀어보기" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15748. Rest Stops">
+  <component name="RunManager" selected="Python.9461. 파도반 수열">
     <configuration name="1003. 피보나치 함수" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9461. 파도반 수열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/그리디" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/그리디/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/9461. 파도반 수열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,19 +255,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.11000. 강의실 배정" />
       <item itemvalue="Python.2748. 피보나치 수 2" />
       <item itemvalue="Python.1003. 피보나치 함수" />
       <item itemvalue="Python.15748. Rest Stops" />
+      <item itemvalue="Python.9461. 파도반 수열" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9461. 파도반 수열" />
         <item itemvalue="Python.15748. Rest Stops" />
         <item itemvalue="Python.1003. 피보나치 함수" />
         <item itemvalue="Python.2748. 피보나치 수 2" />
         <item itemvalue="Python.11000. 강의실 배정" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28225806" />
@@ -274,7 +293,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,8 +370,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/기웅스터디/그리디/15748. Rest Stops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/9461. 파도반 수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/1149. RGB거리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
