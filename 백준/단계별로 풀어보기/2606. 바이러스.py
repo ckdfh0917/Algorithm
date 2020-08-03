@@ -2,7 +2,7 @@ numPC = int(input())
 n = int(input())
 
 arr = [[0] * (numPC+1) for _ in range(numPC+1)]
-dp = [[0] * (numPC+1) for _ in range(numPC+1)]
+visited = [0] * (numPC+1)
 
 for _ in range(n):
     x, y = map(int, input().split())
@@ -10,8 +10,15 @@ for _ in range(n):
     arr[y][x] = 1
 
 
-stack = []
 def dfs(x):
-    for i in range(1, numPC):
-        arr[x][i]
+    global cnt
+    for i in range(numPC+1):
+        if arr[x][i] == 1 and visited[i] == 0:
+            visited[i] = 1
+            dfs(i)
+            cnt += 1
 
+cnt = 0
+visited[1] = 1
+dfs(1)
+print(cnt)
