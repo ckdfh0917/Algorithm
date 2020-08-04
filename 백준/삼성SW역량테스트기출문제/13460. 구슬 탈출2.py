@@ -1,3 +1,7 @@
+import sys
+sys.setrecursionlimit(10**9)
+# https://juhee-maeng.tistory.com/29
+
 N, M = map(int, input().split())
 
 maze = [list(input()) for _ in range(N)]
@@ -36,80 +40,76 @@ def dfs(rx, ry, bx, by, cnt):
         return
 
     for k in range(4):
-        print('k', k)
-        nrx = rx
-        nry = ry
-        nbx = bx
-        nby = by
-
-        if 0 <= rx+dx[k] < N and 0 <= ry+dy[k] < M:
-            nrx = rx+dx[k]
-            nry = ry+dy[k]
-        if 0 <= bx+dy[k] < N and 0 <= by+dy[k] < M:
-            nbx = bx+dx[k]
-            nby = by+dy[k]
-
-        if maze[nrx][nry] == '.' or maze[nbx][nby] == '.':
-            cnt += 1
-
-
-
-
-            if k == 0 and nrx == nbx:
-                pass
-            elif k == 1 and nry == nby:
-                pass
-            elif k == 2 and nrx == nbx:
-                pass
-            elif k == 3 and nry == nby:
-                pass
-            else:
-                if maze[nrx][nry] == '.':
+        # 위
+        if k == 0:
+            # 파란공이 더 위
+            if rx >= bx:
+                if 0 <= bx+dx[k] < N:
+                    nbx = bx+dx[k]
+                    nrx = rx+dx[k]
+                    print('aa')
+                    # 파란공 먼저 움직이기
                     while True:
-                        if 0 <= nrx+dx[k] < N and 0 <= nry+dy[k] < M:
-                            nrx += dx[k]
-                            nry += dy[k]
-                        else:
-                            break
-
-                        if maze[nrx][nry] == '.':
+                        print('bb', nbx)
+                        if maze[nbx][by] == '.':
+                            nbx += dx[k]
                             continue
-                        elif maze[nrx][nry] == 'O':
+                        elif maze[nbx][by] == '#':
+                            nbx -= dx[k]
+                            print('dd', nbx)
+                            maze[bx][by] = '.'
+                            maze[nbx][by] = 'B'
+                            break
+                        elif maze[nbx][by] == 'O':
+                            return
+                    # 빨간공 뒤에 움직이기
+                    while True:
+                        print('cc')
+                        if maze[nrx][ry] == '.':
+                            nrx += dx[k]
+                            continue
+                        elif maze[nrx][ry] == '#':
+                            nrx -= dx[k]
+                            maze[nrx][ry] = 'R'
+                            maze[rx][ry] = '.'
+                            break
+                        elif maze[nrx][ry] == 'O':
                             minV = min(minV, cnt)
                             return
-                        else:
-                            maze[nrx-dx[k]][nry-dy[k]] = 'R'
-                            maze[rx][ry] = '.'
-                            nrx -= dx[k]
-                            nry -= dy[k]
-                            break
-
-                if maze[nbx][nby] == '.':
+                    dfs(nrx, ry, nbx, by, cnt+1)
+            # 빨간공이 더 위
+            else:
+                if 0 <= bx+dx[k] < N:
+                    nbx = bx+dx[k]
+                    nrx = rx+dx[k]
+                    # 빨간공 먼저 움직이기
                     while True:
-                        if 0 <= nrx+dx[k] < N and 0 <= nry+dy[k] < M:
-                            nbx += dx[k]
-                            nby += dy[k]
-                        else:
-                            break
-
-                        if maze[nbx][nby] == '.':
+                        if maze[nrx][ry] == '.':
+                            nrx += dx[k]
                             continue
-                        elif maze[nbx][nby] == 'O':
-                            return
-                        else:
-                            maze[nbx-dx[k]][nby-dy[k]] = 'B'
-                            maze[bx][by] = '.'
-                            nbx -= dx[k]
-                            nby -= dy[k]
+                        elif maze[nrx][ry] == '#':
+                            nrx -= dx[k]
+                            maze[nrx][ry] = 'R'
+                            maze[rx][ry] = '.'
                             break
-            r_visited[nrx][nry] = 1
-            b_visited[nbx][nby] = 1
+                        elif maze[nrx][ry] == 'O':
+                            minV = min(minV, cnt)
+                            return
+                    # 빨간공 뒤에 움직이기
+                    while True:
+                        if maze[nbx][by] == '.':
+                            nbx += dx[k]
+                            continue
+                        elif maze[nbx][by] == '#':
+                            nbx -= dx[k]
+                            maze[bx][by] = '.'
+                            maze[nbx][by] = 'B'
+                            break
+                        elif maze[nbx][by] == 'O':
+                            return
+                    dfs(nrx, ry, nbx, by, cnt+1)
 
-            print(cnt, rx, ry, bx, by)
-            for i in range(N):
-                print(maze[i])
-            print('====================')
-            dfs(nrx, nry, nbx, nby, cnt+1)
+
 
     return
 
