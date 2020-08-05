@@ -1,118 +1,13 @@
-import sys
-sys.setrecursionlimit(10**9)
+from collections import deque
 # https://juhee-maeng.tistory.com/29
 
 N, M = map(int, input().split())
 
 maze = [list(input()) for _ in range(N)]
-r_visited = [[0] * M for _ in range(N)]
-b_visited = [[0] * M for _ in range(N)]
-
-# for i in range(N):
-#     print(maze[i])
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 minV = 123456891
-
-def dfs(rx, ry, bx, by, cnt):
-    print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
-    print(cnt, rx, ry, bx, by)
-    for i in range(N):
-        print(maze[i])
-    print('====================')
-
-    global minV
-    if maze[rx][ry] == 'O' and maze[bx][by] != 'O':
-        minV = min(minV, cnt)
-        return
-
-    if r_visited[rx][ry] == 2 and b_visited[bx][by] == 2:
-        return
-    if r_visited[rx][ry] == 1 and b_visited[bx][by] == 1:
-        r_visited[rx][ry] = 2
-        b_visited[bx][by] = 2
-    else:
-        r_visited[rx][ry] = 1
-        b_visited[bx][by] = 1
-
-    if minV < cnt:
-        return
-
-    for k in range(4):
-        # 위
-        if k == 0:
-            # 파란공이 더 위
-            if rx >= bx:
-                if 0 <= bx+dx[k] < N:
-                    nbx = bx+dx[k]
-                    nrx = rx+dx[k]
-                    print('aa')
-                    # 파란공 먼저 움직이기
-                    while True:
-                        print('bb', nbx)
-                        if maze[nbx][by] == '.':
-                            nbx += dx[k]
-                            continue
-                        elif maze[nbx][by] == '#':
-                            nbx -= dx[k]
-                            print('dd', nbx)
-                            maze[bx][by] = '.'
-                            maze[nbx][by] = 'B'
-                            break
-                        elif maze[nbx][by] == 'O':
-                            return
-                    # 빨간공 뒤에 움직이기
-                    while True:
-                        print('cc')
-                        if maze[nrx][ry] == '.':
-                            nrx += dx[k]
-                            continue
-                        elif maze[nrx][ry] == '#':
-                            nrx -= dx[k]
-                            maze[nrx][ry] = 'R'
-                            maze[rx][ry] = '.'
-                            break
-                        elif maze[nrx][ry] == 'O':
-                            minV = min(minV, cnt)
-                            return
-                    dfs(nrx, ry, nbx, by, cnt+1)
-            # 빨간공이 더 위
-            else:
-                if 0 <= bx+dx[k] < N:
-                    nbx = bx+dx[k]
-                    nrx = rx+dx[k]
-                    # 빨간공 먼저 움직이기
-                    while True:
-                        if maze[nrx][ry] == '.':
-                            nrx += dx[k]
-                            continue
-                        elif maze[nrx][ry] == '#':
-                            nrx -= dx[k]
-                            maze[nrx][ry] = 'R'
-                            maze[rx][ry] = '.'
-                            break
-                        elif maze[nrx][ry] == 'O':
-                            minV = min(minV, cnt)
-                            return
-                    # 빨간공 뒤에 움직이기
-                    while True:
-                        if maze[nbx][by] == '.':
-                            nbx += dx[k]
-                            continue
-                        elif maze[nbx][by] == '#':
-                            nbx -= dx[k]
-                            maze[bx][by] = '.'
-                            maze[nbx][by] = 'B'
-                            break
-                        elif maze[nbx][by] == 'O':
-                            return
-                    dfs(nrx, ry, nbx, by, cnt+1)
-
-
-
-    return
-
 
 
 p_r = [0, 0]
@@ -125,5 +20,57 @@ for i in range(N):
         if maze[i][j] == 'B':
             p_b = [i, j]
 
-dfs(p_r[0], p_r[1], p_b[0], p_b[1], 0)
-print(minV)
+def move(x, y, dx, dy):
+    move_cnt = 0
+    while True:
+        if maze[x+dx][y+dy] == '.':
+            x += dx
+            y += dy
+        elif maze[x+dx][y+dy] == 'O':
+            return x, y, -1
+        else:
+            return x, y, move_cnt
+
+def bfs(p_r, p_b):
+    rx, ry = p_r
+    bx, by = p_b
+
+    q = deque([[[[rx, ry, bx, by]], 0]])
+    while q:
+        visited, num = q.pop()
+        rx = visited[-1][0]
+        ry = visited[-1][1]
+        bx = visited[-1][2]
+        by = visited[-1][3]
+
+        # 이동횟수가 10번을 넘긴다면 -1을 return한다.
+        if num == 10:
+            return -1
+
+        for i in range(4):
+            new_rx, new_ry, r_move = move(rx, ry, dx[i], dy[i])
+            new_bx, new_by, b_move = move(bx, by, dx[i], dy[i])
+
+            # 파란 구슬이 탈출했다.
+            if b_move == -1:
+                pass
+            # 파란 구슬은 탈출하지 못했고, 빨간 구슬은 탈출했다.
+            elif r_move == -1:
+                return num + 1
+            # 파란 구슬도, 빨간 구슬도 탈출하지 못했다.
+            else:
+                if new_rx == new_bx and new_ry == new_by:  # 만약 서로 같은 공간에 있다면 move횟수로 위치를 조정해줘야한다.
+                    if (r_move < b_move):  # 빨간 공이 덜 움직였다 -> 파란 공을 한칸 뒤로 물린다.
+                        new_bx, new_by = new_bx - dx[i], new_by - dy[i]
+                    else:  # 파란 공이 덜 움직였다. -> 빨간 공을 한칸 뒤로 물린다.
+                        new_rx, new_ry = new_rx - dx[i], new_ry - dy[i]
+                # [빨간공, 파란공] 해당 위치를 전에 방문한적이 없다면 큐에 append한다.
+                if [new_rx, new_ry, new_bx, new_by] not in visited:
+                    q.appendleft([visited + [[new_rx, new_ry, new_bx, new_by]], num + 1])
+        # 4방향에 대해 알아봤으나 큐에 더이상 추가될 것이 없고,
+        # 또한 현재 큐에는 남아있는 element가 없다.
+        # -1을 return한다.
+        if len(q) == 0:
+            return -1
+
+print(bfs(p_r, p_b))
