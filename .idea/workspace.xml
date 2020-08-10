@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14500. 테트로미노.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14501. 퇴사.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,33 +18,33 @@
     <session id="-1314614571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="13" />
+          <entry key="project.open.time.3" value="14" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="27" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="18706" />
+          <entry key="py" value="19440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="18706" />
+          <entry key="Python" value="19440" />
         </counts>
       </usages-collector>
     </session>
@@ -52,13 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14500. 테트로미노.py">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14501. 퇴사.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-              <folding>
-                <marker date="1596979637128" expanded="true" signature="749:1402" ph="..." />
-              </folding>
+            <state relative-caret-position="158">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -76,6 +73,14 @@
     <findStrings>
       <find>끝</find>
       <find>20</find>
+      <find>res</find>
+      <find>45</find>
+      <find>aa 10</find>
+      <find>aa 9 45</find>
+      <find>46</find>
+      <find>a 1 1</find>
+      <find>a 9 45</find>
+      <find>aa 9</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,13 +110,14 @@
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/3190. 뱀.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/12100. 2048(Easy).py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14500. 테트로미노.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14501. 퇴사.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14500. 테트로미노">
+  <component name="RunManager" selected="Python.14501. 퇴사">
     <configuration name="12100. 2048(Easy)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,27 +187,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/12100. 2048(Easy).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="13458. 시험 감독" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SW-Expert-Academy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/13458. 시험 감독.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,6 +237,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="14501. 퇴사" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SW-Expert-Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14501. 퇴사.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3190. 뱀" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,19 +280,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.13458. 시험 감독" />
       <item itemvalue="Python.14499. 주사위 굴리기" />
       <item itemvalue="Python.3190. 뱀" />
       <item itemvalue="Python.12100. 2048(Easy)" />
       <item itemvalue="Python.14500. 테트로미노" />
+      <item itemvalue="Python.14501. 퇴사" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14501. 퇴사" />
         <item itemvalue="Python.14500. 테트로미노" />
         <item itemvalue="Python.12100. 2048(Easy)" />
         <item itemvalue="Python.3190. 뱀" />
         <item itemvalue="Python.14499. 주사위 굴리기" />
-        <item itemvalue="Python.13458. 시험 감독" />
       </list>
     </recent_temporary>
   </component>
@@ -304,21 +310,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15862525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32670453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3963068" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.390625" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,25 +508,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="193" column="25" lean-forward="true" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
-          <folding>
-            <element signature="e#139#1281#0" />
-            <element signature="e#625#1768#0" />
-            <element signature="e#2462#3601#0" />
-            <element signature="e#3618#4759#0" />
-            <marker date="1596965418286" expanded="true" signature="4765:4895" ph="..." />
-            <marker date="1596965418286" expanded="true" signature="5213:5291" ph="..." />
-            <marker date="1596965418286" expanded="true" signature="5213:5296" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14500. 테트로미노.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <marker date="1596979637128" expanded="true" signature="749:1402" ph="..." />
-          </folding>
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14501. 퇴사.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
