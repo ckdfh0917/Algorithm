@@ -1,7 +1,7 @@
 N, M, H = map(int, input().split())
 
 arr = [[0] * (M+2) for _ in range(N+2)]
-visited = [[0] * (N+2) for _ in range(N+2)]
+visited = [[0] * (M+2) for _ in range(N+2)]
 for _ in range(M):
     a, b = map(int, input().split())
     arr[a][b] = 1
@@ -12,7 +12,7 @@ for i in range(M+2):
 
 for i in range(N+2):
     arr[i][0] = 3
-    print(arr[i])
+    # print(arr[i])
 
 def down(x, y, s):
     if arr[x][y] == 0:
@@ -39,7 +39,7 @@ def down(x, y, s):
 def ladder():
     for i in range(1, M+2):
         f = down(0, i, i)
-        print('ff', i, f)
+        # print('ff', i, f)
         if not f:
             return False
     return True
@@ -49,37 +49,33 @@ def ladder():
 def make_ladder(c):
     global cnt
     print('ccc', c)
-    if cnt == c:
-        print('ladder')
-        lad = ladder()
-        if lad:
-            return True
-        else:
-            return False
+    if c > H:
+        return
+    if cnt < c:
+        return
+
+    lad = ladder()
+    if lad:
+        cnt = min(cnt, c)
+        return
 
     for i in range(1, N + 1):
         for j in range(1, M + 1):
             if arr[i][j] == 0 and arr[i][j + 1] == 0:
-                print('qq', i, j)
                 if visited[i][j] == 0:
                     arr[i][j] = 1
                     arr[i][j+1] = 2
                     visited[i][j] = 1
                     print('aa', i, j)
-                    makelad = make_ladder(c+1)
-                    print('make', makelad)
-                    if makelad:
-                        return True
+                    make_ladder(c+1)
                     visited[i][j] = 0
                     arr[i][j] = 0
                     arr[i][j+1] = 0
-cnt = 0
-while True:
-    print('cnt', cnt)
-    if make_ladder(0):
-        break
-    cnt += 1
 
 
-
-print(cnt)
+cnt = 1234567890
+if ladder():
+    print(0)
+else:
+    make_ladder(0)
+    print(cnt)
