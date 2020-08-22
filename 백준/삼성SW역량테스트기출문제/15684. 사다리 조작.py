@@ -1,83 +1,63 @@
 N, M, H = map(int, input().split())
 
-arr = [[0] * (M+2) for _ in range(N+2)]
-visited = [[0] * (M+2) for _ in range(N+2)]
+arr = [[0] * (N+2) for _ in range(H+2)]
+
 for _ in range(M):
     a, b = map(int, input().split())
     arr[a][b] = 1
     arr[a][b+1] = 2
 
-for i in range(M+2):
-    arr[N+1][i] = 3
-
 for i in range(N+2):
-    arr[i][0] = 3
-    # print(arr[i])
+    arr[H+1][i] = 3
 
-def down(x, y, s):
-    if arr[x][y] == 0:
-        if down(x+1, y, s):
-            return True
-        else:
-            return False
-    elif arr[x][y] == 1:
-        if down(x+1, y+1, s):
-            return True
-        else:
-            return False
-    elif arr[x][y] == 2:
-        if down(x+1, y-1, s):
-            return True
-        else:
-            return False
-    else:
-        if y == s:
-            return True
-        else:
-            return False
+for i in range(H+2):
+    arr[i][0] = 3
+    arr[i][N+1] = 3
 
 def ladder():
-    for i in range(1, M+2):
-        f = down(0, i, i)
-        # print('ff', i, f)
-        if not f:
+    for i in range(1, N+2):
+        col = i
+        for row in range(1, H+2):
+            if arr[row][col] == 1:
+                col += 1
+            elif arr[row][col] == 2:
+                col -= 1
+        if col != i:
             return False
     return True
 
 
 
-def make_ladder(c):
-    global cnt
-    print('ccc', c)
-    if c > H:
-        return
-    if cnt < c:
+
+def make_ladder(x, y, c):
+    global ans
+    if ans <= c:
         return
 
     lad = ladder()
     if lad:
-        cnt = min(cnt, c)
+        ans = min(ans, c)
         return
 
-    for i in range(1, N + 1):
-        for j in range(1, M + 1):
+    if c == 3:
+        return
+
+    for i in range(x, H + 1):
+        for j in range(y, N ):
             if arr[i][j] == 0 and arr[i][j + 1] == 0:
-                if visited[i][j] == 0:
-                    arr[i][j] = 1
-                    arr[i][j+1] = 2
-                    visited[i][j] = 1
-                    print('aa', i, j)
-                    make_ladder(c+1)
-                    visited[i][j] = 0
-                    arr[i][j] = 0
-                    arr[i][j+1] = 0
+                arr[i][j] = 1
+                arr[i][j+1] = 2
+
+                make_ladder(i, j+1, c+1)
+                arr[i][j] = 0
+                arr[i][j+1] = 0
+        y = 1
 
 
-aaa
+ans = 1234567890
+make_ladder(1, 1, 0)
 
-cnt = 1234567890
-if ladder():
-    print(0)
+if ans == 1234567890:
+    print(-1)
 else:
-    make_ladder(0)
-    print(cnt)
+    print(ans)

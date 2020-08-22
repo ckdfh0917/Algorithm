@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/15649. N과 M(1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/15650. N과 M(2).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/15651. N과 M(3).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/15652. N과 M(4).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,46 +27,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="54" />
+          <entry key="py" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="54" />
+          <entry key="Python" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="33658" />
+          <entry key="py" value="35170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="33658" />
+          <entry key="Python" value="35170" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               <folding>
-                <marker date="1598077904424" expanded="true" signature="336:780" ph="..." />
-                <marker date="1598077904424" expanded="true" signature="793:798" ph="..." />
+                <marker date="1598114541177" expanded="true" signature="780:781" ph="..." />
+                <marker date="1598114541177" expanded="true" signature="794:799" ph="..." />
+                <marker date="1598114541177" expanded="true" signature="1603:1620" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/15652. N과 M(4).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="4" lean-forward="true" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -87,27 +74,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>20</find>
-      <find>res</find>
-      <find>45</find>
-      <find>aa 10</find>
-      <find>aa 9 45</find>
-      <find>46</find>
-      <find>a 1 1</find>
-      <find>a 9 45</find>
-      <find>aa 9</find>
-      <find>1 1 1</find>
-      <find>aaa</find>
-      <find>끝</find>
-      <find>2 0 1 1</find>
-      <find>2 0 1 0</find>
-      <find>t</find>
-      <find>t 2 0 0</find>
-      <find>t 2 0 0 0</find>
-      <find>t 2 0 1 1</find>
-      <find>q 2 0 1 1 1</find>
       <find>lst</find>
+      <find>cont</find>
+      <find>cnt</find>
+      <find>print('ans</find>
+      <find>ans</find>
+      <find>aa</find>
+      <find>aa 5</find>
+      <find>aa 5 4</find>
+      <find>aa 5 4</find>
+      <find>aa 4 2</find>
+      <find>aa 4 2 2</find>
+      <find>aa 4 2 3</find>
+      <find>M</find>
+      <find>for</find>
       <find>print</find>
+      <find>aa 4</find>
+      <find>aa 3 4</find>
+      <find>bb 3 4 2</find>
+      <find>aa 4 1 3</find>
+      <find>aa</find>
+      <find>aa 1 3 0</find>
+      <find>1 3 1</find>
+      <find>bb 1 3 1</find>
+      <find>aa 1 3 1</find>
+      <find>aa 3</find>
+      <find>aa 3 4 2</find>
+      <find>aaaaaaaa</find>
+      <find>zzzzzzzz 3</find>
+      <find>ladder</find>
+      <find>make</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,17 +146,17 @@
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14888. 연산자 끼워넣기.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14890. 경사로.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15683. 감시.py" />
-        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/15649. N과 M(1).py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/15650. N과 M(2).py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/15651. N과 M(3).py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/15652. N과 M(4).py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1130" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -178,17 +174,6 @@
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="단계별로 풀어보기" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15652. N과 M(4)">
+  <component name="RunManager" selected="Python.15684. 사다리 조작">
     <configuration name="15649. N과 M(1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,11 +323,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15684. 사다리 조작" />
         <item itemvalue="Python.15652. N과 M(4)" />
         <item itemvalue="Python.15651. N과 M(3)" />
         <item itemvalue="Python.15650. N과 M(2)" />
         <item itemvalue="Python.15649. N과 M(1)" />
-        <item itemvalue="Python.15684. 사다리 조작" />
       </list>
     </recent_temporary>
   </component>
@@ -360,15 +345,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="904" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42099193" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32716456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40086207" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3963068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,9 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/deque.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/알쓸신잡/재귀함수 깊이대비.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -649,24 +631,10 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/zipimport.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/deepcopy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15683. 감시.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
-          <folding>
-            <marker date="1598077904424" expanded="true" signature="336:780" ph="..." />
-            <marker date="1598077904424" expanded="true" signature="793:798" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,8 +665,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/15652. N과 M(4).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" lean-forward="true" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/deque.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/deepcopy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <marker date="1598114541177" expanded="true" signature="780:781" ph="..." />
+            <marker date="1598114541177" expanded="true" signature="794:799" ph="..." />
+            <marker date="1598114541177" expanded="true" signature="1603:1620" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
