@@ -73,7 +73,7 @@ def make_ladder(c):
                     arr[i][j+1] = 0
 
 
-
+aaa
 
 cnt = 1234567890
 if ladder():
