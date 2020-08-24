@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15686. 치킨 배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,22 +28,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="60" />
+          <entry key="py" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="60" />
+          <entry key="Python" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="38005" />
+          <entry key="py" value="40392" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="38005" />
+          <entry key="Python" value="40392" />
         </counts>
       </usages-collector>
     </session>
@@ -51,13 +51,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15686. 치킨 배달.py">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="337">
+              <caret line="68" column="79" selection-start-line="68" selection-start-column="79" selection-end-line="68" selection-end-column="79" />
               <folding>
-                <marker date="1598176434375" expanded="true" signature="595:596" ph="..." />
-                <marker date="1598176434375" expanded="true" signature="875:1175" ph="..." />
+                <marker date="1598225757476" expanded="true" signature="546:547" ph="..." />
+                <marker date="1598225757476" expanded="true" signature="546:651" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,12 +75,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cont</find>
-      <find>cnt</find>
       <find>print('ans</find>
       <find>ans</find>
       <find>aa</find>
       <find>aa 5</find>
-      <find>aa 5 4</find>
       <find>aa 5 4</find>
       <find>aa 4 2</find>
       <find>aa 4 2 2</find>
@@ -92,7 +90,6 @@
       <find>aa 3 4</find>
       <find>bb 3 4 2</find>
       <find>aa 4 1 3</find>
-      <find>aa</find>
       <find>aa 1 3 0</find>
       <find>1 3 1</find>
       <find>bb 1 3 1</find>
@@ -104,6 +101,9 @@
       <find>ladder</find>
       <find>make</find>
       <find>#</find>
+      <find>cnt</find>
+      <find>make_set</find>
+      <find>print(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,13 +153,14 @@
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15684. 사다리 조작.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15685. 드래곤 커브.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15686. 치킨 배달.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,6 +181,17 @@
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
+              <item name="유니온 파인드" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
               <item name="백준" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,7 +203,13 @@
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="알쓸신잡" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘" type="462c0819:PsiDirectoryNode" />
+              <item name="D23" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,28 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.15686. 치킨 배달">
-    <configuration name="15651. N과 M(3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SW-Expert-Academy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/단계별로 풀어보기" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/단계별로 풀어보기/15651. N과 M(3).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.16234. 인구 이동">
     <configuration name="15652. N과 M(4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,20 +324,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="16234. 인구 이동" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SW-Expert-Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.15684. 사다리 조작" />
-      <item itemvalue="Python.15651. N과 M(3)" />
       <item itemvalue="Python.15652. N과 M(4)" />
       <item itemvalue="Python.15685. 드래곤 커브" />
       <item itemvalue="Python.15686. 치킨 배달" />
+      <item itemvalue="Python.16234. 인구 이동" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16234. 인구 이동" />
         <item itemvalue="Python.15686. 치킨 배달" />
         <item itemvalue="Python.15685. 드래곤 커브" />
         <item itemvalue="Python.15684. 사다리 조작" />
         <item itemvalue="Python.15652. N과 M(4)" />
-        <item itemvalue="Python.15651. N과 M(3)" />
       </list>
     </recent_temporary>
   </component>
@@ -361,12 +379,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18241903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18241903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3963068" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3963068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,28 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CodeForces/Div. 2/#657/A.py" />
-    <entry file="file://$PROJECT_DIR$/CodeForces/Div. 2/#657/B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/1181. 단어 정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/10814. 나이순 정렬.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/알쓸신잡/우선순위 큐.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -712,11 +708,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15686. 치킨 배달.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <marker date="1598176434375" expanded="true" signature="595:596" ph="..." />
-            <marker date="1598176434375" expanded="true" signature="875:1175" ph="..." />
+            <marker date="1598176567163" expanded="true" signature="653:654" ph="..." />
+            <marker date="1598176567163" expanded="true" signature="909:1209" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/기웅스터디/유니온 파인드/10775. 공항.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_그룹 나누기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-556" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_색종이붙이기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_연산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_최소 스패닝 트리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_최소 신장 트리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알고리즘/D23/이창로_최소 이동 거리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="68" column="79" selection-start-line="68" selection-start-column="79" selection-end-line="68" selection-end-column="79" />
+          <folding>
+            <marker date="1598225757476" expanded="true" signature="546:547" ph="..." />
+            <marker date="1598225757476" expanded="true" signature="546:651" ph="..." />
           </folding>
         </state>
       </provider>
