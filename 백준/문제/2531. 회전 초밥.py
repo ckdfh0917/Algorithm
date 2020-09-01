@@ -1,27 +1,21 @@
 N, d, k, c = map(int, input().split())
 
-maxV = 0
-cnt = 0
-visited = [0] * (N+1)
-for i in range(N):
-    t = int(input())
-    # print('a', cnt, sushi)
-    if i >= k:
-        flag =
-        print(p)
-        if p not in sushi:
-            cnt -= 1
-        if t not in sushi:
-            cnt += 1
-        sushi.append(t)
-    else:
-        if visited[t] == 0:
-            visited[t] = 1
-            cnt += 1
-    if visited[c] == 0:
-        maxV = max(maxV, cnt + 1)
-    # print('b', cnt, sushi)
-    maxV = max(maxV, cnt)
+sushi = []
+for _ in range(N):
+    sushi.append(int(input()))
 
+maxV = 0
+for i in range(N-k+1):
+    temp = sushi[i:i+k]
+    temp.append(c)
+    temp = set(temp)
+    maxV = max(maxV, len(temp))
+
+
+for i in range(N-k+1, N):
+    temp = sushi[i:i+k] + sushi[:i-N+k]
+    temp.append(c)
+    temp = set(temp)
+    maxV = max(maxV, len(temp))
 
 print(maxV)
