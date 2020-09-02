@@ -13,6 +13,9 @@ for i in range(N-k+1):
     maxV = max(maxV, len(temp))
 
 
+
+
+
 for i in range(N-k+1, N):
     temp = set(sushi[i:i+k] + sushi[:i-N+k] + [c])
     maxV = max(maxV, len(temp))
