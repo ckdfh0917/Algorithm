@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/단계별로 풀어보기/1932. 정수 삼각형.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,35 +18,35 @@
     <session id="-1314614571">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="28" />
+          <entry key="project.open.time.3" value="29" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="118" />
+          <entry key="py" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="118" />
+          <entry key="Python" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="59569" />
+          <entry key="py" value="62030" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="59569" />
+          <entry key="Python" value="62030" />
         </counts>
       </usages-collector>
     </session>
@@ -54,10 +54,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/1932. 정수 삼각형.py">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="134" column="28" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+              <folding>
+                <marker date="1599204268425" expanded="true" signature="184:189" ph="..." />
+                <marker date="1599204268425" expanded="true" signature="789:2641" ph="..." />
+                <marker date="1599204268425" expanded="true" signature="789:2642" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +153,6 @@
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/1004. 어린 왕자.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/2206. 벽 부수고 이동하기.py" />
         <option value="$PROJECT_DIR$/백준/문제/2206. 벽 부수고 이동하기.py" />
-        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/D.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/E.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/A.py" />
@@ -162,6 +166,7 @@
         <option value="$PROJECT_DIR$/백준/문제/15961. 회전 초밥.py" />
         <option value="$PROJECT_DIR$/백준/문제/test.py" />
         <option value="$PROJECT_DIR$/백준/단계별로 풀어보기/1932. 정수 삼각형.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py" />
       </list>
     </option>
   </component>
@@ -195,13 +200,7 @@
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
               <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="단계별로 풀어보기" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="문제" type="462c0819:PsiDirectoryNode" />
+              <item name="삼성SW역량테스트기출문제" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1932. 정수 삼각형">
+  <component name="RunManager" selected="Python.17144. 미세먼지 안녕!">
     <configuration name="15961. 회전 초밥" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,6 +245,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/문제/15961. 회전 초밥.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17144. 미세먼지 안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SW-Expert-Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,27 +316,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6808. 규영이와 인영이의 카드게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SW-Expert-Academy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW-Expert-Academy/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SW-Expert-Academy/D3/6808. 규영이와 인영이의 카드게임.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,19 +338,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.6808. 규영이와 인영이의 카드게임" />
       <item itemvalue="Python.2531. 회전 초밥" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.15961. 회전 초밥" />
       <item itemvalue="Python.1932. 정수 삼각형" />
+      <item itemvalue="Python.17144. 미세먼지 안녕!" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17144. 미세먼지 안녕!" />
         <item itemvalue="Python.1932. 정수 삼각형" />
         <item itemvalue="Python.15961. 회전 초밥" />
         <item itemvalue="Python.2531. 회전 초밥" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.6808. 규영이와 인영이의 카드게임" />
       </list>
     </recent_temporary>
   </component>
@@ -372,18 +371,18 @@
     <frame x="-8" y="0" width="1164" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22182786" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22182786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37106016" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3739255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32902297" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2746781" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2713068" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3252841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -633,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/알쓸신잡/eBay Korea/A.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -724,8 +716,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/단계별로 풀어보기/1932. 정수 삼각형.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/17144. 미세먼지 안녕!.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="134" column="28" lean-forward="true" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+          <folding>
+            <marker date="1599204268425" expanded="true" signature="184:189" ph="..." />
+            <marker date="1599204268425" expanded="true" signature="789:2641" ph="..." />
+            <marker date="1599204268425" expanded="true" signature="789:2642" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
