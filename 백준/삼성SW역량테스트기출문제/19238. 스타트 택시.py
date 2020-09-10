@@ -1,3 +1,23 @@
+'''
+사람 위치와 목적지 위치가 같을 때 고려해야함, 목적지가 같을 수도 있음
+그리고 런타임 걸림
+
+6 4 15
+0 0 1 0 0 0
+0 0 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 1 0
+0 0 0 1 0 0
+6 5
+2 2 5 6
+5 4 1 6
+4 2 3 5
+1 6 5 4
+
+ans 20
+'''
+
 from collections import deque
 
 N, M, F = map(int ,input().split())
@@ -9,12 +29,11 @@ arr[tx-1][ty-1] = 't'
 
 for i in range(1, M+1):
     x1, y1, x2, y2 = map(int, input().split())
-    print(x1-1, y1-1, x2-1, y2-1)
     arr[x1-1][y1-1] = 'm' + str(i)
     arr[x2-1][y2-1] = 'g' + str(i)
 
-for i in range(N):
-    print(arr[i])
+# for i in range(N):
+#     print(arr[i])
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
@@ -49,8 +68,8 @@ def find_man(tx, ty):
                     if visited[x+dx[k]][y+dy[k]] == 0 and arr[x+dx[k]][y+dy[k]] != '1':
                         q.append([x+dx[k], y+dy[k], c+1])
                         visited[x+dx[k]][y+dy[k]] = 1
-    print(-1)
-    exit(-1)
+
+    return -1, -1, -1
 
 def find_goal(tx, ty):
     q = deque()
@@ -71,8 +90,7 @@ def find_goal(tx, ty):
                     if visited[x+dx[k]][y+dy[k]] == 0 and arr[x+dx[k]][y+dy[k]] != '1':
                         q.append([x+dx[k], y+dy[k], c+1])
                         visited[x+dx[k]][y+dy[k]] = 1
-    print(-1)
-    exit(-1)
+    return -1, -1, -1
 
 ans = 0
 while True:
@@ -80,10 +98,16 @@ while True:
         print(F)
         break
     nx, ny, nc = find_man(tx-1, ty-1)
+    if nx == -1 and ny == -1 and nc == -1:
+        print(-1)
+        break
     arr[tx-1][ty-1] = '0'
     if F - nc >= 0:
         F -= nc
         gx, gy, gc = find_goal(nx, ny)
+        if gx == -1 and gy == -1 and gc == -1:
+            print(-1)
+            break
         arr[nx][ny] = '0'
         arr[gx][gy] = 't'
         tx = gx + 1
@@ -94,7 +118,7 @@ while True:
             continue
         else:
             print(-1)
-            exit(-1)
+            break
     else:
         print(-1)
-        exit(-1)
+        break
