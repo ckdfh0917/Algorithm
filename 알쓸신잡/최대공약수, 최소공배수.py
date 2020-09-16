@@ -5,3 +5,4 @@ def gcd(a, b):
 
 def lcd(a,b):
     return a * b // gcd(a,b)
+
