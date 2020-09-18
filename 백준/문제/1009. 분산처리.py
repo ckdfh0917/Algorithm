@@ -5,15 +5,15 @@ N = int(input())
 
 for _ in range(N):
     a, b = map(int, input().split())
-    temp = a
-    for i in range(b-1):
-        temp *= a
-        temp = temp % 10
-    if temp == 10:
-        print(temp)
+    k = b % 4
+    if k == 0:
+        k = 4
+    a **= k
+    a = a % 10
+    if a == 0:
+        print(10)
     else:
-        temp = temp % 10
-        print(temp)
+        print(a)
 
 
 '''
