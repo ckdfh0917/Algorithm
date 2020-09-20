@@ -16,6 +16,9 @@ for _ in range(N):
         print(a)
 
 
+
+
+
 '''
 3 9 27 81 3 9
 
