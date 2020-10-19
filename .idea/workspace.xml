@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/SW-Expert-Academy/D4/test.py" line="1" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="" />
+    <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SW-Expert-Academy/D4/10888. 음식배달.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +57,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="850550192">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2951" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2951" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/11659. 구간 합 구하기4.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D4/10888. 음식배달.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="154">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <marker date="1603073217688" expanded="true" signature="55:258" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/기웅스터디/비트마스킹/1327. 소트 게임.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D4/1486. 장훈이의 높은 선반.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="-287" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/알쓸신잡/파이썬 자료구조 특징.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -130,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/15686. 치킨 배달.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동(ver.bfs).py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16234. 인구 이동.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14889. 스타트와 링크.py" />
@@ -181,6 +226,7 @@
         <option value="$PROJECT_DIR$/알쓸신잡/set 특징.md" />
         <option value="$PROJECT_DIR$/알쓸신잡/자료구조 특징.md" />
         <option value="$PROJECT_DIR$/알쓸신잡/파이썬 자료구조 특징.md" />
+        <option value="$PROJECT_DIR$/SW-Expert-Academy/D4/10888. 음식배달.py" />
       </list>
     </option>
   </component>
@@ -205,6 +251,22 @@
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="D4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="z&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null&#10;z&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -236,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1327. 소트 게임">
+  <component name="RunManager" selected="Python.10888. 음식배달">
     <configuration name="연결리스트" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1015. 수열 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="10888. 음식배달" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,11 +328,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SW-Expert-Academy/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/문제/1015. 수열 정렬.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SW-Expert-Academy/D4/10888. 음식배달.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,19 +405,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1015. 수열 정렬" />
       <item itemvalue="Python.연결리스트" />
       <item itemvalue="Python.3. 연결리스트" />
       <item itemvalue="Python.11659. 구간 합 구하기4" />
       <item itemvalue="Python.1327. 소트 게임" />
+      <item itemvalue="Python.10888. 음식배달" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10888. 음식배달" />
         <item itemvalue="Python.1327. 소트 게임" />
         <item itemvalue="Python.11659. 구간 합 구하기4" />
         <item itemvalue="Python.3. 연결리스트" />
         <item itemvalue="Python.연결리스트" />
-        <item itemvalue="Python.1015. 수열 정렬" />
       </list>
     </recent_temporary>
   </component>
@@ -374,20 +436,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20819564" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20819564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3650568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3650568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33664772" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33664772" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3252841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,16 +479,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D4/3234. 준환이의 양팔저울.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D3/5948. 새샘이의 7-3-5 게임.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D3/6057. 그래프의 삼각형.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -634,6 +685,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/deepcopy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/11659. 구간 합 구하기4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -641,8 +695,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/deepcopy.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/기웅스터디/비트마스킹/1327. 소트 게임.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/알쓸신잡/파이썬 자료구조 특징.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -654,10 +712,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/기웅스터디/비트마스킹/1327. 소트 게임.py">
+    <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D4/1486. 장훈이의 높은 선반.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="-287" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SW-Expert-Academy/D4/10888. 음식배달.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <marker date="1603073217688" expanded="true" signature="55:258" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
