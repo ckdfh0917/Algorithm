@@ -1,25 +1,35 @@
-from sys import stdin
-_ = stdin.readline()
-N = sorted(map(int,stdin.readline().split()))
-_ = stdin.readline()
-M = map(int,stdin.readline().split())
+import sys
 
-def binary(n, N, start, end):
-    if start > end:
-        return 0
-    m = (start+end)//2
-    if n == N[m]:
-        return N[start:end+1].count(n)
-    elif n < N[m]:
-        return binary(n, N, start, m-1)
+n = int(input())
+arr = list(sys.stdin.readline().rstrip())
+number = []
+for i in range(n):
+    number.append(int(input()))
+alphabet = [chr(i+65) for i in range(26)]
+
+# for i in range(len(arr)): # 배열에 대해서
+#     if arr[i] in alphabet:
+#         arr[i] = number[ord(arr[i]) - 65]
+# print(arr)
+stack = []
+for i in range(len(arr)):
+    if arr[i] == '+':
+        temp2 = stack.pop()
+        temp1 = stack.pop()
+        stack.append(temp1+temp2)
+    elif arr[i] == '-':
+        temp2 = stack.pop()
+        temp1 = stack.pop()
+        stack.append(temp1 - temp2)
+    elif arr[i] == '*':
+        temp2 = stack.pop()
+        temp1 = stack.pop()
+        stack.append(temp1 * temp2)
+    elif arr[i] == '/':
+        temp2 = stack.pop()
+        temp1 = stack.pop()
+        stack.append(temp1 / temp2)
     else:
-        return binary(n, N, m+1, end)
+        stack.append(number[ord(arr[i]) - 65])
 
-n_dic = {}
-for n in N:
-    start = 0
-    end = len(N) - 1
-    if n not in n_dic:
-        n_dic[n] = binary(n, N, start, end)
-print(n_dic)
-print(' '.join(str(n_dic[x]) if x in n_dic else '0' for x in M ))
+print("{0:.2f}".format(stack[0]))
