@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,35 +72,47 @@
         <counts>
           <entry key=" Breed Counting" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="45" />
+          <entry key="py" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="45" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10092" />
+          <entry key="py" value="11413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10092" />
+          <entry key="Python" value="11413" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <marker date="1606199830545" expanded="true" signature="170:304" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -159,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/E.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/A.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/C.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/B.py" />
@@ -210,6 +222,7 @@
         <option value="$PROJECT_DIR$/기웅스터디/스택/1935. 후위 표기식2.py" />
         <option value="$PROJECT_DIR$/기웅스터디/분할정복/11441. 합 구하기.py" />
         <option value="$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" />
       </list>
     </option>
   </component>
@@ -236,13 +249,18 @@
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="기웅스터디" type="462c0819:PsiDirectoryNode" />
-              <item name="구간합 배열(Prefix Sum)" type="462c0819:PsiDirectoryNode" />
+              <item name="백준" type="462c0819:PsiDirectoryNode" />
+              <item name="삼성SW역량테스트기출문제" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
+              <item name="알쓸신잡" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10211. Maximum Subarray">
+  <component name="RunManager" selected="Python.14891. 톱니바퀴">
     <configuration name="소수점 자리수 출력" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1269. 대칭 차집합" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14891. 톱니바퀴" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기웅스터디/이진검색트리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기웅스터디/이진검색트리/1269. 대칭 차집합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,19 +400,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1269. 대칭 차집합" />
       <item itemvalue="Python.1935. 후위 표기식2" />
       <item itemvalue="Python.소수점 자리수 출력" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.10211. Maximum Subarray" />
+      <item itemvalue="Python.14891. 톱니바퀴" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14891. 톱니바퀴" />
         <item itemvalue="Python.10211. Maximum Subarray" />
         <item itemvalue="Python.1935. 후위 표기식2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.소수점 자리수 출력" />
-        <item itemvalue="Python.1269. 대칭 차집합" />
       </list>
     </recent_temporary>
   </component>
@@ -415,12 +433,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16523464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32102272" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32102272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,7 +475,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/2021 KAKAO BLIND RECRUITMENT/3.py" />
     <entry file="file://$PROJECT_DIR$/알쓸신잡/2021 KAKAO BLIND RECRUITMENT/2.py" />
     <entry file="file://$PROJECT_DIR$/알쓸신잡/2021 KAKAO BLIND RECRUITMENT/1.py" />
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14888. 연산자 끼워넣기.py">
@@ -667,13 +684,6 @@
     <entry file="file://$PROJECT_DIR$/알쓸신잡/deepcopy.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/기웅스터디/이진검색트리/1269. 대칭 차집합.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -718,8 +728,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="228">
+          <caret line="12" column="18" lean-forward="true" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1606199830545" expanded="true" signature="170:304" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
