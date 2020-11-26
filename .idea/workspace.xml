@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알쓸신잡/배열 회전.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,24 +71,24 @@
         <counts>
           <entry key=" Breed Counting" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="49" />
+          <entry key="py" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="49" />
+          <entry key="Python" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="16307" />
+          <entry key="py" value="16337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="16307" />
+          <entry key="Python" value="16337" />
         </counts>
       </usages-collector>
     </session>
@@ -109,14 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="619">
+              <caret line="338" column="30" lean-forward="true" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="30" />
               <folding>
-                <marker date="1606360607584" expanded="true" signature="34:9476" ph="..." />
+                <marker date="1606361060509" expanded="true" signature="34:9508" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/알쓸신잡/배열 회전.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -197,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/B.py" />
         <option value="$PROJECT_DIR$/SW-Expert-Academy/D4/test.py" />
         <option value="$PROJECT_DIR$/SW-Expert-Academy/D4/3234. 준환이의 양팔저울.py" />
         <option value="$PROJECT_DIR$/SW-Expert-Academy/D3/6808. 규영이와 인영이의 카드게임.py" />
@@ -248,6 +254,7 @@
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" />
+        <option value="$PROJECT_DIR$/알쓸신잡/배열 회전.py" />
       </list>
     </option>
   </component>
@@ -275,12 +282,6 @@
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
               <item name="백준" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SW-Expert-Academy" type="462c0819:PsiDirectoryNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
-              <item name="삼성SW역량테스트기출문제" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SW-Expert-Academy" type="b2602c69:ProjectViewProjectNode" />
@@ -456,19 +457,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1555" height="1696" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16469038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4078105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4078105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25544176" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25544176" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3252841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -499,9 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14888. 연산자 끼워넣기.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/16236. 아기 상어.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -793,11 +792,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="619">
+          <caret line="338" column="30" lean-forward="true" selection-start-line="338" selection-start-column="30" selection-end-line="338" selection-end-column="30" />
           <folding>
-            <marker date="1606360607584" expanded="true" signature="34:9476" ph="..." />
+            <marker date="1606361060509" expanded="true" signature="34:9508" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/배열 회전.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
