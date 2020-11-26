@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df7a2ed-28d2-4632-bd94-9d280dae139f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,24 +73,24 @@
         <counts>
           <entry key=" Breed Counting" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="47" />
+          <entry key="py" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="47" />
+          <entry key="Python" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="11413" />
+          <entry key="py" value="16307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11413" />
+          <entry key="Python" value="16307" />
         </counts>
       </usages-collector>
     </session>
@@ -109,10 +110,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="419">
+              <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+              <folding>
+                <marker date="1606360607584" expanded="true" signature="34:9476" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="122" selection-start-line="122" selection-end-line="127" selection-end-column="22" />
+              <folding>
+                <element signature="e#61#578#0" />
+                <element signature="e#607#1124#0" />
+                <element signature="e#1153#1670#0" />
+                <element signature="e#1699#2216#0" />
+                <element signature="e#4728#5245#0" />
+                <element signature="e#5275#5792#0" />
+                <element signature="e#5822#6339#0" />
+                <element signature="e#6368#6885#0" />
+                <element signature="e#6914#7431#0" />
+                <element signature="e#7461#7978#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,8 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/A.py" />
-        <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/C.py" />
         <option value="$PROJECT_DIR$/알쓸신잡/eBay Korea/B.py" />
         <option value="$PROJECT_DIR$/SW-Expert-Academy/D4/test.py" />
         <option value="$PROJECT_DIR$/SW-Expert-Academy/D4/3234. 준환이의 양팔저울.py" />
@@ -223,13 +246,15 @@
         <option value="$PROJECT_DIR$/기웅스터디/분할정복/11441. 합 구하기.py" />
         <option value="$PROJECT_DIR$/기웅스터디/구간합 배열(Prefix Sum)/10211. Maximum Subarray.py" />
         <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py" />
+        <option value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
+    <option name="width" value="1944" />
+    <option name="height" value="2120" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,28 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14891. 톱니바퀴">
-    <configuration name="소수점 자리수 출력" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SW-Expert-Academy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알쓸신잡" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알쓸신잡/소수점 자리수 출력.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5373. 큐빙">
     <configuration name="10211. Maximum Subarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,7 +382,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5373. 큐빙" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SW-Expert-Academy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,11 +390,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알쓸신잡" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알쓸신잡/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SW-Expert-Academy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,18 +426,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.1935. 후위 표기식2" />
-      <item itemvalue="Python.소수점 자리수 출력" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.10211. Maximum Subarray" />
       <item itemvalue="Python.14891. 톱니바퀴" />
+      <item itemvalue="Python.5373. 큐빙" />
+      <item itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5373. 큐빙" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.14891. 톱니바퀴" />
         <item itemvalue="Python.10211. Maximum Subarray" />
         <item itemvalue="Python.1935. 후위 표기식2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.소수점 자리수 출력" />
       </list>
     </recent_temporary>
   </component>
@@ -430,21 +455,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1555" height="1696" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16469038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32102272" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4078105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.328125" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2556818" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25544176" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3252841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -475,8 +499,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/2021 KAKAO BLIND RECRUITMENT/2.py" />
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/2021 KAKAO BLIND RECRUITMENT/1.py" />
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14888. 연산자 끼워넣기.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,6 +755,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/14891. 톱니바퀴.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -743,10 +772,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/알쓸신잡/list에서 최대값의 인덱스 찾기.py">
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="247">
+          <caret line="122" selection-start-line="122" selection-end-line="127" selection-end-column="22" />
+          <folding>
+            <element signature="e#61#578#0" />
+            <element signature="e#607#1124#0" />
+            <element signature="e#1153#1670#0" />
+            <element signature="e#1699#2216#0" />
+            <element signature="e#4728#5245#0" />
+            <element signature="e#5275#5792#0" />
+            <element signature="e#5822#6339#0" />
+            <element signature="e#6368#6885#0" />
+            <element signature="e#6914#7431#0" />
+            <element signature="e#7461#7978#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백준/삼성SW역량테스트기출문제/5373. 큐빙.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+          <folding>
+            <marker date="1606360607584" expanded="true" signature="34:9476" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
