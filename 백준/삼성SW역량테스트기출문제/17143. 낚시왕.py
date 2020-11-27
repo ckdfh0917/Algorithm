@@ -4,16 +4,12 @@ input = sys.stdin.readline
 R, C, M = map(int, input().split())
 
 arr = [[0] * C for _ in range(R)]
-
 sharks = []
 for _ in range(M):
     r, c, s, d, z = map(int, input().split())
     shark = [r, c, s, d, z]
     sharks.append(shark)
     arr[r-1][c-1] = [s, d, z]
-
-# for i in range(R):
-#     print(arr[i])
 
 
 def move_shark():
@@ -30,10 +26,7 @@ def move_shark():
                 else:
                     ns = s % (C*2 - 2)
                 temp[a][b] = 1
-                # print('-------', i, j, s, d, z, '------------')
-                # for q in range(R):
-                #     print(temp[q])
-                # print()
+
                 for k in range(ns):
                     temp[a][b] = 0
                     if d == 1:          # 위
