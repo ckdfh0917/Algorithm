@@ -4,13 +4,11 @@ input = sys.stdin.readline
 R, C, M = map(int, input().split())
 
 arr = [[0] * C for _ in range(R)]
-sharks = []
+
 for _ in range(M):
     r, c, s, d, z = map(int, input().split())
     shark = [r, c, s, d, z]
-    sharks.append(shark)
     arr[r-1][c-1] = [s, d, z]
-
 
 def move_shark():
     global arr
