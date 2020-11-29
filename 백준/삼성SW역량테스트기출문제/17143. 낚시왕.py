@@ -60,9 +60,7 @@ def move_shark():
                             temp[a][b] = 1
                             d = 3
 
-                    # for q in range(R):
-                    #     print(temp[q])
-                    # print()
+
                 temp[a][b] = 0
                 if narr[a][b] == 0:
                     narr[a][b] = [s, d, z]
